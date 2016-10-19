@@ -33,9 +33,6 @@ Route::get("/enroll","EnrollController@enroll");
 Route::resource("/doenroll","EnrollController");
 
 
-Route::get('/', function () {
-	return view('index');
-});
 //页面(查询友情链接)
 Route::get("/","LinkController@index");
 
@@ -62,6 +59,7 @@ Route::get('/shopcar','ShopcarController@index');
 Route::get('/admin',function(){
 	return view('admin.login');
 });
+
 //在线客服显示视图
 Route::get('/talk','TalkController@index');
 Route::post('/talkup','TalkController@insert');
@@ -76,6 +74,7 @@ Route::get("/carpage","AjaxController@carpage");
 Route::get('/del/{aa}','AjaxController@del');
 //清空购物车
 Route::get('/delcar/{id}','AjaxController@delcar');
+
 
 
 
@@ -107,6 +106,7 @@ Route::get('/delcar/{id}','AjaxController@delcar');
 		Route::resource("xiangqing","Admin\XiangqController");//详情的管理
 		Route::get("tJxiangQing/{id}","Admin\XiangqController@createjia");
 		Route::resource("links","Admin\LinksController");	//友情连接管理	--郑勇新添加
+		Route::resource("write","Admin\WriteController");	//页面板块连接管理	--郑勇新添加
 
 		// Route::get("zhuan","Admin\GoodsController@zhuan");	//成功后指向
 		Route::get("zhuan","Admin\StuController@zhuan");//执行成功的跳转

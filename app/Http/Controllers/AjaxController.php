@@ -24,6 +24,7 @@ class AjaxController extends Controller
 
     //价格
     public function massage(Request $request)
+
     {
         // return 2356;
         $color = $request->goodsColor;
@@ -87,4 +88,5 @@ class AjaxController extends Controller
 
     }
  
+
 }

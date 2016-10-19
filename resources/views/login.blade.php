@@ -126,10 +126,10 @@
                                     <div id="pwdErrMsg" class="field_message"></div>
                                 </div>
                                @if(session('msg'))
-           <p class="login-box-msg" style="color:red;">{{ session('msg') }}</p>
-        @else
-           <p class="login-box-msg">Sign in to start your session</p>
-        @endif
+                                   <p class="login-box-msg" style="color:red;">{{ session('msg') }}</p>
+                                @else
+                                   <p class="login-box-msg">Sign in to start your session</p>
+                                @endif
        
                                 <div class="sign-btn">
                                     <input type="hidden" name="_token" value="{{csrf_token()}}">

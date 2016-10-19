@@ -37,7 +37,7 @@
   </head>
   <body>
     <h2>我的购物车</h2>
-    <a href="/delcar/{{session('user')->id}}">清空购物车</a>
+    
     　　　
     <a href="/" style="color:orange;">首页</a>
  <table id="example2" class="table table-bordered table-hover">

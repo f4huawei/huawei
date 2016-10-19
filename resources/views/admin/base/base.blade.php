@@ -53,6 +53,7 @@
                   <i class="fa fa-envelope-o"></i>
                   <span class="label label-success">4</span>
                 </a>
+
                 <ul class="dropdown-menu">
                   <li class="header">You have 4 messages</li>
                   <li>
@@ -82,6 +83,7 @@
                           <p>Why not buy a new awesome theme?</p>
                         </a>
                       </li>
+
                       <li>
                         <a href="#">
                           <div class="pull-left">
@@ -94,6 +96,7 @@
                           <p>Why not buy a new awesome theme?</p>
                         </a>
                       </li>
+
                       <li>
                         <a href="#">
                           <div class="pull-left">
@@ -106,6 +109,7 @@
                           <p>Why not buy a new awesome theme?</p>
                         </a>
                       </li>
+
                       <li>
                         <a href="#">
                           <div class="pull-left">
@@ -119,16 +123,21 @@
                         </a>
                       </li>
                     </ul>
+
                   </li>
+
                   <li class="footer"><a href="#">See All Messages</a></li>
                 </ul>
+
               </li>
+
               <!-- Notifications: style can be found in dropdown.less -->
               <li class="dropdown notifications-menu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                   <i class="fa fa-bell-o"></i>
                   <span class="label label-warning">10</span>
                 </a>
+
                 <ul class="dropdown-menu">
                   <li class="header">You have 10 notifications</li>
                   <li>
@@ -139,31 +148,40 @@
                           <i class="fa fa-users text-aqua"></i> 5 new members joined today
                         </a>
                       </li>
+
                       <li>
                         <a href="#">
                           <i class="fa fa-warning text-yellow"></i> Very long description here that may not fit into the page and may cause design problems
                         </a>
                       </li>
+
                       <li>
                         <a href="#">
                           <i class="fa fa-users text-red"></i> 5 new members joined
                         </a>
                       </li>
+
                       <li>
                         <a href="#">
                           <i class="fa fa-shopping-cart text-green"></i> 25 sales made
                         </a>
                       </li>
+
                       <li>
                         <a href="#">
                           <i class="fa fa-user text-red"></i> You changed your username
                         </a>
                       </li>
+
                     </ul>
+
                   </li>
+
                   <li class="footer"><a href="#">View all</a></li>
                 </ul>
+
               </li>
+
               <!-- Tasks: style can be found in dropdown.less -->
               <li class="dropdown tasks-menu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -188,6 +206,7 @@
                           </div>
                         </a>
                       </li><!-- end task item -->
+
                       <li><!-- Task item -->
                         <a href="#">
                           <h3>
@@ -201,6 +220,7 @@
                           </div>
                         </a>
                       </li><!-- end task item -->
+
                       <li><!-- Task item -->
                         <a href="#">
                           <h3>
@@ -214,6 +234,7 @@
                           </div>
                         </a>
                       </li><!-- end task item -->
+
                       <li><!-- Task item -->
                         <a href="#">
                           <h3>
@@ -227,13 +248,18 @@
                           </div>
                         </a>
                       </li><!-- end task item -->
+
                     </ul>
+
                   </li>
+
                   <li class="footer">
                     <a href="#">View all tasks</a>
                   </li>
                 </ul>
+
               </li>
+
               <!-- User Account: style can be found in dropdown.less -->
               <li class="dropdown user user-menu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -249,6 +275,7 @@
                       <small>Member since Nov. 2012</small>
                     </p>
                   </li>
+
                   <!-- Menu Body -->
                   <li class="user-body">
                     <div class="col-xs-4 text-center">
@@ -261,6 +288,7 @@
                       <a href="#">Friends</a>
                     </div>
                   </li>
+
                   <!-- Menu Footer-->
                   <li class="user-footer">
                     <div class="pull-left">
@@ -270,7 +298,9 @@
                       <a href="{{ URL('admin/logout') }}" class="btn btn-default btn-flat">退出</a>
                     </div>
                   </li>
+
                 </ul>
+
               </li>
               
             </ul>
@@ -306,6 +336,7 @@
                 <li><a href="{{ URL('admin/stu/create') }}"><i class="fa fa-circle-o"></i> 新增管理员 </a></li>
               </ul>
             </li>
+
             <li class="treeview">
               <a href="#">
                 <i class="fa fa-dashboard"></i> <span>普通用户信息管理</span> <i class="fa fa-angle-left pull-right"></i>
@@ -316,11 +347,12 @@
 
               </ul>
             </li>
+
             <li class="treeview">
               <a href="#">
                 <i class="fa fa-files-o"></i>
                 <span>商品管理</span>
-                <span class="label label-primary pull-right">4</span>
+                <span class="label label-primary pull-right">3</span>
               </a>
               <ul class="treeview-menu">
                 <li><a href="{{ URL('admin/goods') }}"><i class="fa fa-circle-o"></i>查看商品信息</a></li>
@@ -333,12 +365,12 @@
                -->
              </ul>
             </li>
-             <li class="treeview">
 
+            <li class="treeview">
               <a href="#">
                 <i class="fa fa-files-o"></i>
                 <span>类别管理</span>
-                <span class="label label-primary pull-right">4</span>
+                <span class="label label-primary pull-right">2</span>
               </a>
               <ul class="treeview-menu">
 
@@ -348,19 +380,20 @@
                 <li><a href="../layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Collapsed Sidebar</a></li>
                 
                -->
-
-             </ul>
+              </ul>
             </li>
             <!-- <li>
               <a href="../widgets.html">
                 <i class="fa fa-th"></i> <span>Widgets</span> <small class="label pull-right bg-green">new</small>
               </a>
             </li> -->
+
             <li class="treeview">
               <a href="#">
                 <i class="fa fa-pie-chart"></i>
                 <span>友情链接</span>
                 <i class="fa fa-angle-left pull-right"></i>
+                 <span class="label label-primary pull-right">2</span>
               </a>
               <ul class="treeview-menu">
                 <li><a href="{{ URL('admin/links') }}"><i class="fa fa-circle-o"></i> 连接管理</a></li>
@@ -371,19 +404,27 @@
             </li>
 
             <li class="treeview">
+              <a href="#">
+                <i class="fa fa-pie-chart"></i>
+                <span>首页管理</span>
+                <i class="fa fa-angle-left pull-right"></i>
+                 <span class="label label-primary pull-right">2</span>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="{{ URL('admin/write') }}"><i class="fa fa-circle-o"></i> 板块管理</a></li>
+                <li><a href="{{ URL('admin/write/create') }}"><i class="fa fa-circle-o"></i> 添加板块</a></li>
+                <!-- <li><a href="../charts/flot.html"><i class="fa fa-circle-o"></i> Flot</a></li>
+                <li><a href="../charts/inline.html"><i class="fa fa-circle-o"></i> Inline charts</a></li> -->
+              </ul>
+            </li>
+
+            <li class="treeview">
               <a href="{{ URL('admin/on') }}">
                 <i class="fa fa-laptop"></i>
                 <span>网站开关</span>
-                <i class="fa fa-angle-left pull-right"></i>
               </a>
-              
-
             </li>
-           
-           
-           
-           
-            <li class="treeview">
+
               <a href="#">
                 <i class="fa fa-share"></i> <span>Multilevel</span>
                 <i class="fa fa-angle-left pull-right"></i>
@@ -396,23 +437,26 @@
                     <li><a href="#"><i class="fa fa-circle-o"></i> Level Two</a></li>
                     <li>
                       <a href="#"><i class="fa fa-circle-o"></i> Level Two <i class="fa fa-angle-left pull-right"></i></a>
-                      <ul class="treeview-menu">
+                      <u
+                      l class="treeview-menu">
                         <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
                         <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
                       </ul>
+
                     </li>
+
                   </ul>
                 </li>
+                
                 <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
               </ul>
+            </li> -->
 
-            </li>
-            <li><a href="../../documentation/index.html"><i class="fa fa-book"></i> <span>Documentation</span></a></li>
-
-            <li class="header">LABELS</li>
+            <!-- <li><a href="{{ URL('admin/wirte') }}"><i class="fa fa-book"></i> <span>首页管理</span></a></li> -->
+            <!-- <li class="header">LABELS</li>
             <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Important</span></a></li>
             <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Warning</span></a></li>
-            <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>Information</span></a></li>
+            <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>Information</span></a></li> -->
 
           </ul>
         </section>
