@@ -50,16 +50,35 @@ Route::resource("/computer","ComputerController");
 Route::resource("/myroom","RoomController");
 //前台商品购买页面
 Route::get('/shopping/{id?}',"ShopController@show");
-//ajax
+//颜色ajax
 Route::get('/color',"AjaxController@color");
+//内存ajax
+Route::get('/massage',"AjaxController@massage");
 
-//ajax订单生成
-Route::get('/order','AjaxController@order');
 
+//订单页
+Route::get('/shopcar','ShopcarController@index');
 
 Route::get('/admin',function(){
 	return view('admin.login');
 });
+//在线客服显示视图
+Route::get('/talk','TalkController@index');
+Route::post('/talkup','TalkController@insert');
+Route::get('/talkwith','TalkController@with');
+//页面(开发者链接)
+Route::get("/Kai","KaiController@Kai");
+//购物车
+Route::get("/car/{id}","AjaxController@car");
+//购物车页面
+Route::get("/carpage","AjaxController@carpage");
+//删除
+Route::get('/del/{aa}','AjaxController@del');
+//清空购物车
+Route::get('/delcar/{id}','AjaxController@delcar');
+
+
+
 
 
 

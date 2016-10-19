@@ -65,6 +65,7 @@
                    　　尊敬的： {{ session('user')->userName }}<br/>
                   <a href="/myroom/{{ session('user')->id }}" style="color:blue;" >个人中心</a>　　
                   <a href="/logout" style="color:red;" >退出登录</a>
+                  <a href="/carpage" style="color:orange;" >购物车</a>
                 @else
                     <li><a href="http://www.huawei.com/worldwide/index.htm" id="indexheader_0_Repeater2_headLink_0" data-value="{A48DE0FC-6920-4155-B0C8-B87FA492DBDD}" title="选择区域/语言">选择区域/语言</a></li>
                     
@@ -113,7 +114,7 @@
                         
                             
                             <li>
-                                <a data-menutype="megamenu" data-section="hwmm4" href="http://developer.huawei.com/cn/">
+                                <a data-menutype="megamenu" data-section="hwmm4" href="{{  URL('/Kai') }}">
                                     开发者
                                 </a>
                             </li>
@@ -1153,7 +1154,7 @@ Huawei P9</a></h3>
         </li>
     </ul>
     </li>
-    <li class="hw1_nomore"><a href="http://developer.huawei.com/cn/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;homepageclick&#39;, &#39;developer-cn-mobile-nav&#39;);">开发者</a></li>
+    <li ><a href="{{ URL('/Kai') }}" >开发者</a></li>
     <li class="hw1_nomore"><a href="http://m.vmall.com/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;homepageclick&#39;, &#39;vmall-cn-mobile-nav&#39;);">华为商城</a></li>
     <li class="hw1_nomore"><a href="http://www.huawei.com/en/worldwide">[ 选择区域/语言 ]</a></li>
     <li class="hw1_nomore"><a href="http://www.huawei.com/cn/my-huawei/login?redirect=http%3a%2f%2fwww.huawei.com%2fcn%2f">[ 登录 ]</a></li> 
