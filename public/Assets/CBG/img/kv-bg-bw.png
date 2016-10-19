@@ -1,0 +1,1467 @@
+
+<!DOCTYPE html>
+<html class="" lang="">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-sale=1" />
+    
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>404 Page</title>
+    <link rel="stylesheet" href="/Assets/CBG/css/bootstrap.min.css" type="text/css" media="screen, project, print" />
+<link rel="stylesheet" href="/Assets/CBG/css/jquery.fancybox-1.3.4.css" type="text/css" media="screen, project, print" />
+<link rel="stylesheet" type="text/css" href="/Assets/CBG/css/jquery-ui.min.css" />
+<link rel="stylesheet" href="/Assets/CBG/csscn/main-cn.css?ver=2" type="text/css" media="screen, project, print" />
+<link rel="stylesheet" href="/Assets/CBG/csscn/mobile.css?ver=2" type="text/css" media="screen, project, print" />
+    <script src="//assets.adobedtm.com/852e96eed9e29df1fb13035d1f233bb8c2c56c8a/satelliteLib-a647f567a5845369df41d9808a92ab370cc03e8f.js"></script>
+<script type="text/javascript" src="/Assets/CBG/js/SearchResult.js?ver=2"></script>
+<script type="text/javascript">
+    (function (url, win, doc, myName) {
+        win[myName] = win[myName] || function () {
+            (win[myName].q = win[myName].q || []).push(arguments);
+        };
+        setTimeout(function () {
+            var iframe = document.createElement('iframe');
+            (iframe.frameElement || iframe).style.cssText = 'display:none';
+            iframe.src = 'javascript:false';
+            var where = document.getElementsByTagName('script')[0];
+            where.parentNode.insertBefore(iframe, where);
+            var doc = iframe.contentWindow.document;
+            doc.open().write('<body onload="' +
+                'var js = document.createElement(\'script\');' +
+                'js.src = \'' + url + '?hr=' + new Date().getTime() + '\';' +
+                'document.body.appendChild(js);">');
+            doc.close();
+        }, 0);
+    }('http://app.huawei.com/hwa-c/configresource/js/general/ha_f.js', window, document, 'ha'));
+
+    ha("set", "siteId", "www");
+
+</script>
+    <!--[if lt IE 9 ]>
+  <script type="text/javascript" src="/Assets/CBG/js/html5shiv.min.js" ></script>
+  <script type="text/javascript" src="/Assets/CBG/js/respond.min.js"></script>
+<![endif]-->
+    <link rel="Shortcut Icon" href="/Assets/img/img_ent_en_logo_ico.ico">
+    <script src="/Assets/CBG/js/modernizr-2.8.3.min.js" type="text/javascript"></script>
+    
+</head>
+<body>
+    <!--BrowserNotice-->
+    <div class="browsehappy ReadPolicy">
+<p>本站点使用cookies,继续浏览表示您同意我们使用cookies。<a href="/cn/privacy-policy" target="_blank">Cookies和隐私政策&gt;</a><a href="javascript:void(0)" class="close"><img alt="" src="http://e.huawei.com/Assets/EBG/img/icon_close01.png" /></a></p>
+</div>
+    <!--BrowserNotice-->
+    <form method="post" action="/Assets/CBG/img/kv-bg-bw.png" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTE2NDYwNzQwMg8WAh4TVmFsaWRhdGVSZXF1ZXN0TW9kZQIBFgICCRBkZBYEAgEPZBYCZg9kFgJmD2QWCGYPFgIeC18hSXRlbUNvdW50AgMWBmYPZBYCAgEPFggeCmRhdGEtdmFsdWUFJntBNDhERTBGQy02OTIwLTQxNTUtQjBDOC1CODdGQTQ5MkRCRER9HgRocmVmBSlodHRwOi8vd3d3Lmh1YXdlaS5jb20vd29ybGR3aWRlL2luZGV4Lmh0bR4JaW5uZXJodG1sBRPpgInmi6nljLrln58v6K+t6KiAHgV0aXRsZQUT6YCJ5oup5Yy65Z+fL+ivreiogGQCAQ9kFgICAQ8WCB8CBSZ7N0U4REQwQTAtQjg3OC00RDU1LUI2MDMtOTUyMTA2NzZGNEQxfR8DBYsBL2NuL215LWh1YXdlaS9sb2dpbj9yZWRpcmVjdD1odHRwJTNhJTJmJTJmd3d3Lmh1YXdlaS5jb20lMmY0MDQlM2Y0MDQlN2NodHRwJTNhJTJmJTJmd3d3Lmh1YXdlaS5jb20lM2E4MCUyZkFzc2V0cyUyZkNCRyUyZmltZyUyZmt2LWJnLWJ3LnBuZx8EBQbnmbvlvZUfBQUG55m75b2VZAICD2QWAgIBDxYIHwIFJnsyNjRDQ0JDMS0xODlFLTQ1ODUtOUZFNi1ERUZBM0E2QTREQ0V9HwMFugFodHRwOi8vd3d3Lmh1YXdlaS5jb20vY24vbXktaHVhd2VpL3JlZ2lzdGVyP21ldGhvZD10b1JlZ2lzdGVyJm5scz16aCZhcHB1cmw9aHR0cCUzYSUyZiUyZnd3dy5odWF3ZWkuY29tJTJmNDA0JTNmNDA0JTdjaHR0cCUzYSUyZiUyZnd3dy5odWF3ZWkuY29tJTNhODAlMmZBc3NldHMlMmZDQkclMmZpbWclMmZrdi1iZy1idy5wbmcfBAUG5rOo5YaMHwUFBuazqOWGjGQCAQ8WAh8BAgFkAgMPFgIfAQIGFgxmD2QWAmYPFQIBMQEjZAIBD2QWAmYPFQIBMgEjZAICD2QWAmYPFQIBMwEjZAIDD2QWAmYPFQIBNAEjZAIED2QWAmYPFQIBNR9odHRwOi8vZGV2ZWxvcGVyLmh1YXdlaS5jb20vY24vZAIFD2QWAmYPFQIBNh9odHRwOi8vd3d3LnZtYWxsLmNvbS8jY2lkPTEwMDc0ZAIEDxYCHwECBxYOZg9kFgJmDxUBATBkAgEPZBYCZg8VAQExZAICD2QWAmYPFQEBMmQCAw9kFgJmDxUBATNkAgQPZBYCZg8VAQE0ZAIFD2QWAmYPFQEBNWQCBg9kFgJmDxUBATZkAgcPZBYCZg9kFgJmD2QWCmYPZBYCAgEPFgIfAQIFFgpmD2QWBmYPFQEWPGRpdiBjbGFzcz0nY29sLXNtLTMnPmQCAQ9kFgICAQ9kFgQCAw8PFgIeB1Zpc2libGVoZGQCBQ8WAh8BAgdkAgIPFQEGPC9kaXY+ZAIBD2QWBmYPFQEWPGRpdiBjbGFzcz0nY29sLXNtLTMnPmQCAQ9kFgICAQ9kFgQCAw8PFgIfBmhkZAIFDxYCHwECCGQCAg8VAQY8L2Rpdj5kAgIPZBYGZg8VARY8ZGl2IGNsYXNzPSdjb2wtc20tMyc+ZAIBD2QWAgIBD2QWBAIDDw8WAh8GaGRkAgUPFgIfAQIDZAICDxUBAGQCAw9kFgZmDxUBAGQCAQ9kFgICAQ9kFgQCAQ8PFgIfBmhkZAIFDxYCHwECAmQCAg8VAQY8L2Rpdj5kAgQPZBYGZg8VARY8ZGl2IGNsYXNzPSdjb2wtc20tMyc+ZAIBD2QWAgIBD2QWBAIDDw8WAh8GaGRkAgUPFgIfAQIHZAICDxUBBjwvZGl2PmQCAQ9kFgICAQ8WAh8BAgUWCmYPZBYCAgEPZBYCAgEPZBYIZg8VARc8bGFiZWwgY2xhc3M9J2hhc21lbnUnPmQCAw8PFgIfBmhkZAIEDxUBAGQCBQ8WAh8BAgdkAgEPZBYCAgEPZBYCAgEPZBYIZg8VARc8bGFiZWwgY2xhc3M9J2hhc21lbnUnPmQCAw8PFgIfBmhkZAIEDxUBAGQCBQ8WAh8BAghkAgIPZBYCAgEPZBYCAgEPZBYIZg8VARc8bGFiZWwgY2xhc3M9J2hhc21lbnUnPmQCAw8PFgIfBmhkZAIEDxUBAGQCBQ8WAh8BAgNkAgMPZBYCAgEPZBYCAgEPZBYIZg8VARc8bGFiZWwgY2xhc3M9J25vLW1lbnUnPmQCAQ8PFgIfBmhkZAIEDxUBDWRpc3BsYXk6bm9uZTtkAgUPFgIfAQICZAIED2QWAgIBD2QWAgIBD2QWCGYPFQEXPGxhYmVsIGNsYXNzPSdoYXNtZW51Jz5kAgMPDxYCHwZoZGQCBA8VAQBkAgUPFgIfAQIHZAIDD2QWAgIBDxYCHwECAmQCBQ8PFgIeBFRleHQFecKpMjAxNiDljY7kuLrmioDmnK/mnInpmZDlhazlj7ggJm5ic3A7Jm5ic3A7IDxhIGhyZWY9Imh0dHA6Ly93d3cubWlpdGJlaWFuLmdvdi5jbi8iIHRhcmdldD0iX2JsYW5rIj7nsqRBMi0yMDA0NDAwNeWPtzwvYT5kZAIGD2QWAgIBDxYCHwECA2Rkw2Ki5UscNxZD/dJu5g2ds8up7UA=" />
+</div>
+
+        <div id="container">
+            
+            
+
+<div id="hw1_masthead">
+    <div id="hw1_masthead_wrap">
+      <div id="hw1_subinfo" class="lg-container clearfix hidden-sm hidden-xs">
+        <ul id="hw1_masthead_subinfo" class="clearfix">                
+                        <li><a href="http://www.huawei.com/worldwide/index.htm" id="header_0_Repeater2_headLink_0" data-value="{A48DE0FC-6920-4155-B0C8-B87FA492DBDD}" title="选择区域/语言">选择区域/语言</a></li>
+                    
+                        <li><a href="/cn/my-huawei/login?redirect=http%3a%2f%2fwww.huawei.com%2f404%3f404%7chttp%3a%2f%2fwww.huawei.com%3a80%2fAssets%2fCBG%2fimg%2fkv-bg-bw.png" id="header_0_Repeater2_headLink_1" data-value="{7E8DD0A0-B878-4D55-B603-95210676F4D1}" title="登录">登录</a></li>
+                    
+                        <li><a href="http://www.huawei.com/cn/my-huawei/register?method=toRegister&nls=zh&appurl=http%3a%2f%2fwww.huawei.com%2f404%3f404%7chttp%3a%2f%2fwww.huawei.com%3a80%2fAssets%2fCBG%2fimg%2fkv-bg-bw.png" id="header_0_Repeater2_headLink_2" data-value="{264CCBC1-189E-4585-9FE6-DEFA3A6A4DCE}" title="注册">注册</a></li>
+                    
+            </ul>
+        </div>
+        <div id="hw1_global_nav" class="lg-container">
+            <nav>
+                <div id="hw1_logo">
+                    
+                            <a href="http://www.huawei.com/cn/">
+                                <img alt="Huawei" src="/Assets/CBG/img/logo.png">
+                            </a>
+                        
+                </div>
+                <ul class="nav_ul hw1_masthead_cata hidden-sm hidden-xs">
+                    <li><a data-menutype="megamenu" data-section="hwmm0" href="#"><i></i><span>
+                        我想...
+                    </span></a></li>
+                    
+                            
+                            <li>
+                                <a data-menutype="megamenu" data-section="hwmm1" href='#'>
+                                    个人及家用产品
+                                </a>
+                            </li>
+                        
+                            
+                            <li>
+                                <a data-menutype="megamenu" data-section="hwmm2" href='#'>
+                                    商用解决方案
+                                </a>
+                            </li>
+                        
+                            
+                            <li>
+                                <a data-menutype="megamenu" data-section="hwmm3" href='#'>
+                                    技术支持
+                                </a>
+                            </li>
+                        
+                            
+                            <li>
+                                <a data-menutype="megamenu" data-section="hwmm4" href='#'>
+                                    合作伙伴
+                                </a>
+                            </li>
+                        
+                            
+                            <li>
+                                <a data-menutype="megamenu" data-section="hwmm5" href='http://developer.huawei.com/cn/'>
+                                    开发者
+                                </a>
+                            </li>
+                        
+                            
+                            <li>
+                                <a data-menutype="megamenu" data-section="hwmm6" href='http://www.vmall.com/#cid=10074'>
+                                    华为商城
+                                </a>
+                            </li>
+                        
+                </ul>
+                <div class="hw1_masthead_rightside">
+                    <ul>
+                        
+                        <li class="hw1_search dropdown"><a class="dropdown-toggle" data-toggle="dropdown" id="searchdropmenu" href="#"></a>
+                            <div id="hw1_search_box" aria-labelledby="searchdropmenu">
+                                <div class="triangle"></div>
+                                <div>
+                                    <input type="text" name="ssUserText" class="pull-left" id="search-box-h" placeholder="搜索" onkeypress="javascript:if(event.keyCode==&#39;13&#39;) return Usearchs(this);">
+                                    <input class="pull-left" type="button" id="searchButton" onclick="javascript: Usearch(this);">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="hw1_show_more visible-sm visible-xs" id="mob_menuitem"><a href="#"></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div id="hw1_global_nav_content">
+     <div class="lg-container" >
+         
+                 <div class="hw1_menu_section" data-section="hwmm0">
+                     <div class="row">
+<div class="col-sm-3">
+<div class="hw1_box_wrap">
+<div class="row">
+<div class="col-sm-3">
+<img alt="" class="img-responsive" src="http://www-file.huawei.com/~/media/CORPORATE/Images/Index/nav_mate8.png?la=zh" />
+</div>
+<div class="col-sm-9">
+<ul>
+    <li><a href="http://consumer.huawei.com/cn/mobile-phones/index.htm">浏览智能手机</a></li>
+    <li><a href="http://www.vmall.com/" onclick="ga('send', 'event', 'Outbound Links', 'buysmartphones-cn-iwt-nav');"
+>购买手机产品</a></li>
+    <li><a href="http://consumer.huawei.com/cn/support/index.htm">获取技术支持</a></li>
+    <li><a href="http://consumer.huawei.com/cn/support/service-center/index.htm">查找销售门店</a></li>
+    <li><a href="http://consumer.huawei.com/cn/" class="hw1_btn">访问消费者网站 ></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="hw1_box_wrap">
+<div class="row">
+<div class="col-sm-3">
+<img alt="" class="img-responsive" src="http://www-file.huawei.com/~/media/CORPORATE/Images/Index/nav_ebg.png?la=zh" />
+</div>
+<div class="col-sm-9">
+<ul>
+    <li><a href="http://e.huawei.com/cn/how-to-buy">提交购买需求</a></li>
+    <li><a href="http://e.huawei.com/cn/case-studies">查看成功案例</a></li>
+    <li><a href="http://e.huawei.com/cn/marketing-material">查找营销资料</a></li>
+    <li><a href="http://e.huawei.com/cn/partner/become-a-partner">成为渠道合作伙伴</a></li>
+    <li><a href="http://e.huawei.com/cn/" class="hw1_btn">访问企业业务网站 ></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-3 vertical_line">
+<div class="hw1_box_wrap">
+<div class="row">
+<div class="col-sm-3">
+<img alt="" class="img-responsive" src="http://www-file.huawei.com/~/media/CORPORATE/Images/Index/nav_cbg9-21.png?la=zh" />
+</div>
+<div class="col-sm-9">
+<ul>
+    <li><a href="http://carrier.huawei.com/cn/spotlight">了解行业热点</a></li>
+    <li><a href="http://carrier.huawei.com/cn/solutions">了解运营商解决方案</a></li>
+    <li><a href="http://carrier.huawei.com/cn/products">查找运营商相关产品</a></li>
+    <li><a href="http://carrier.huawei.com/cn/services">了解运营商服务</a></li>
+    <li><a href="http://carrier.huawei.com/cn/" class="hw1_btn">访问运营商业务网站 ></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="hw1_box_wrap">
+<ul>
+    <li><a href="http://www.huawei.com/cn/contact-us">联系华为</a></li>
+    <li><a href="http://www.huawei.com/cn/executives/board-of-directors">了解管理团队</a></li>
+    <li><a href="http://www.huawei.com/cn/news">关注华为动态</a></li>
+    <li><a href="http://career.huawei.com/recruitment/" onclick="ga('send', 'event', 'Outbound Links', 'joinhuawei-cn-iwt-nav');"
+>加入华为</a></li>
+    <li><a href="/cn/index.htm#Subscribe" onclick="AlertDialog()" class="js-feedback-btn">在线反馈</a></li>
+</ul>
+</div>
+</div>
+</div>
+                 </div>
+             
+                 <div class="hw1_menu_section" data-section="hwmm1">
+                     <div class="row">
+<div class="col-sm-2">
+<div class="hw1_box_wrap text-center">
+<a href="http://consumer.huawei.com/cn/mobile-phones/p9" class="hw1_box_content">
+<h3>智能手机</h3>
+<div class="hw1_box_img">
+<img alt="" class="img-responsive center-block" src="http://www-file.huawei.com/~/media/CORPORATE/Images/Index/nav_mate8-126.png?la=zh" />
+</div>
+<h4>HUAWEI P9</h4>
+</a>
+<a href="http://consumer.huawei.com/cn/mobile-phones/index.htm" class="hw1_btn">查看更多 ></a>
+</div>
+</div>
+<div class="col-sm-2">
+<div class="hw1_box_wrap text-center">
+<a href="http://consumer.huawei.com/cn/tablets/matebook/index.html" class="hw1_box_content">
+<h3>笔记本&amp;平板</h3>
+<div class="hw1_box_img">
+<img alt="" class="img-responsive center-block" src="/Assets/CBG/img/dropmenu2.png" />
+</div>
+<h4>MateBook</h4>
+</a>
+<a href="http://consumer.huawei.com/cn/tablets/index.htm" class="hw1_btn">查看更多 ></a>
+</div>
+</div>
+<div class="col-sm-2">
+<div class="hw1_box_wrap text-center">
+<a href="http://consumer.huawei.com/cn/wearables/b3/index.htm" class="hw1_box_content">
+<h3>穿戴设备</h3>
+<div class="hw1_box_img">
+<img alt="" class="img-responsive center-block" src="/Assets/CBG/img/dropmenu3.png" />
+</div>
+<h4>TalkBand B3</h4>
+</a>
+<a href="http://consumer.huawei.com/cn/wearables/index.htm" class="hw1_btn">查看更多 ></a>
+</div>
+</div>
+<div class="col-sm-2">
+<div class="hw1_box_wrap text-center">
+<a href="http://consumer.huawei.com/cn/mobile-broadband/mobile-wifi/features/mobilewifiplus-cn.htm" class="hw1_box_content">
+<h3>移动宽带</h3>
+<div class="hw1_box_img">
+<img alt="" class="img-responsive center-block" src="/Assets/CBG/img/dropmenu4.png" />
+</div>
+<h4>随行WIFI Plus</h4>
+</a>
+<a href="http://consumer.huawei.com/cn/mobile-broadband/mobile-wifi/index.htm" class="hw1_btn">查看更多 ></a>
+</div>
+</div>
+<div class="col-sm-2">
+<div class="hw1_box_wrap text-center">
+<a href="http://consumer.huawei.com/cn/smart-home/wireless-routers/features/q1-cn.htm" class="hw1_box_content">
+<h3>智能家居</h3>
+<div class="hw1_box_img">
+<img alt="" class="img-responsive center-block" src="/Assets/CBG/img/dropmenu5.png" />
+</div>
+<h4>华为路由器Q1</h4>
+</a>
+<a href="http://consumer.huawei.com/cn/smart-home/index.htm" class="hw1_btn">查看更多 ></a>
+</div>
+</div>
+<div class="col-sm-2">
+<div class="hw1_box_wrap text-center">
+<a href="http://consumer.huawei.com/cn/accessories/wall01/index.htm" class="hw1_box_content">
+<h3>配件</h3>
+<div class="hw1_box_img">
+<img alt="" class="img-responsive center-block" src="/Assets/CBG/img/dropmenu6.png" />
+</div>
+<h4>VR眼镜</h4>
+</a>
+<a href="http://consumer.huawei.com/cn/accessories/index.htm" class="hw1_btn">查看更多 ></a>
+</div>
+</div>
+</div>
+                 </div>
+             
+                 <div class="hw1_menu_section" data-section="hwmm2">
+                     <div class="row">
+<div class="col-sm-2-4 hw1_box_wrap">
+<h3>热点话题</h3>
+<ul>
+            <li><a href="http://carrier.huawei.com/cn/spotlight/Big-Video">大视频</a></li> 
+             <li><a href="http://carrier.huawei.com/cn/spotlight/Big-IT">大IT</a></li> 
+             <li><a href="http://carrier.huawei.com/cn/spotlight/Big-Operation">大运营</a></li> 
+             <li><a href="http://carrier.huawei.com/cn/spotlight/Big-Architecture">大架构</a></li> 
+             <li><a href="http://carrier.huawei.com/cn/spotlight/Big-Pipe">大管道</a></li> 
+            <li><a href="http://e.huawei.com/cn/solutions/technical/sdn">软件定义网络（SDN）</a></li>
+            <li><a href="http://e.huawei.com/cn/solutions/technical/cloud-computing">精简IT，敏捷商道</a></li>
+            <li><a href="http://www.huawei.com/minisite/iot/cn/index.html">物联网，驱动行业创新</a></li>
+</ul>
+</div>
+<div class="col-sm-2-4 hw1_box_wrap">
+<h3>行业</h3>
+<ul>
+            <li><a href="http://e.huawei.com/cn/solutions/industries/public-safety">公共安全</a> </li>
+            <li><a href="http://e.huawei.com/cn/solutions/industries/government">政务</a></li>
+            <li><a href="http://e.huawei.com/cn/solutions/industries/railway">轨道</a> </li>
+            <li><a href="http://e.huawei.com/cn/solutions/industries/smart-grid">电力</a></li>
+            <li><a href="http://e.huawei.com/cn/solutions/industries/finance">金融</a> </li>
+            <li><a href="http://e.huawei.com/cn/solutions/industries/media-entertainment">影视传媒</a></li>
+            <li><a href="http://e.huawei.com/cn/solutions/industries/education">教育</a></li>
+    <li><a href="http://e.huawei.com/cn/solutions/industries"class="hw1_btn">查看更多 ></a></li>
+</ul>
+</div>
+<div class="col-sm-2-4 hw1_box_wrap">
+<h3>企业产品及服务</h3>
+<ul>
+ 		    <li><a href="http://e.huawei.com/cn/products/enterprise-networking/switches">交换机</a></li>
+			<li><a href="http://e.huawei.com/cn/products/enterprise-networking/routers">路由器</a></li>
+			<li><a href="http://e.huawei.com/cn/products/enterprise-networking/wlan">WLAN</a></li>
+			<li><a href="http://e.huawei.com/cn/products/cloud-computing-dc/servers">服务器</a></li>
+            <li><a href="http://e.huawei.com/cn/products/cloud-computing-dc/storage">存储</a></li>		
+            <li><a href="http://e.huawei.com/cn/products/cloud-computing-dc/cloud-computing">云计算</a></li>
+            <li><a href="http://carrier.huawei.com/cn/products/network-energy">网络能源</a></li>
+            <li><a href="http://e.huawei.com/cn/services">服务</a></li>
+    <li><a href="http://e.huawei.com/cn/products-solutions" class="hw1_btn">查看更多 ></a></li>
+</ul>
+</div>
+<div class="col-sm-2-4 hw1_box_wrap">
+<h3>运营商产品及服务</h3>
+<ul>
+    <li><a href="http://carrier.huawei.com/cn/products/wireless-network">无线网络</a></li>
+    <li><a href="http://carrier.huawei.com/cn/products/fixed-network">固定网络</a></li>
+    <li><a href="http://carrier.huawei.com/cn/products/core-network">云核心网</a></li>
+    <li><a href="http://carrier.huawei.com/cn/products/carrier-software">电信软件</a></li>
+    <li><a href="http://carrier.huawei.com/cn/products/IT">IT基础设施</a></li>
+    <li><a href="http://carrier.huawei.com/cn/products/network-energy">网络能源</a></li>
+    <li><a href="http://carrier.huawei.com/cn/services">全球服务</a></li>
+    <li><a href="http://carrier.huawei.com/cn/products" class="hw1_btn">查看更多 ></a></li>
+</ul>
+</div>
+<div class="col-sm-2-4 hw1_box_wrap">
+<h3>其他产品</h3>
+<ul>
+    <li><a href="http://www.huawei.com/cn/all-products/solar">智能光伏</a></li>
+</ul>
+</div>
+</div>
+                 </div>
+             
+                 <div class="hw1_menu_section" data-section="hwmm3">
+                     <div class="row">
+<div class="col-sm-3 hw1_box_wrap">
+<h3>消费者</h3>
+<ul>
+    <li><a href="http://consumer.huawei.com/cn/support/express-repair/index.htm">寄修服务</a></li>
+    <li><a href="http://consumer.huawei.com/cn/support/reservation/index.htm">预约服务</a></li>
+    <li><a href="http://consumer.huawei.com/cn/support/warranty-query/index.htm">保修状态查询</a></li>
+    <li><a href="http://consumer.huawei.com/cn/support/warranty-policy/mobile-phone/index.htm">保修政策</a></li>
+    <li><a href="http://club.huawei.com/" onclick="ga('send', 'event', 'homepageclick', 'club-support-cn-nav');"
+>花粉俱乐部</a></li>
+    <li><a href="http://consumer.huawei.com/cn/support/service-center/index.htm">服务中心</a></li>
+    <li><a href="http://emui.huawei.com/cn/" onclick="ga('send', 'event', 'homepageclick', 'emui-support-cn-nav');">升级软件应用</a></li>
+    <li><a href="http://consumer.huawei.com/cn/support/index.htm" class="hw1_btn">查看更多 ></a></li>
+</ul>
+</div>
+<div class="col-sm-3 hw1_box_wrap">
+<h3>企业用户</h3>
+<ul>
+   <li><a href="http://support.huawei.com/enterprise/?lang=zh" onclick="ga('send', 'event', 'homepageclick', 'productsupport-enterprise-support-cn-nav');">技术支持</a></li>
+    <li><a href="http://support.huawei.com/enterprise/NewSoftwareApplication.action" onclick="ga('send', 'event', 'homepageclick', 'NewSoftwareApplication-enterprise-support-cn-nav');">软件下载</a></li>
+    <li><a href="http://support.huawei.com/ecommunity/?l=zh" onclick="ga('send', 'event', 'homepageclick', 'ecommunity-support-cn-nav');">互动社区</a></li>
+    <li><a href="http://support.huawei.com/enterprise/toolNewInfoAction?lang=zh" onclick="ga('send', 'event', 'homepageclick', 'tools-enterprise-support-cn-nav');">工具</a></li>
+    <li><a href="http://support.huawei.com/enterprise/DocIndexAction!toNewDocIndex" onclick="ga('send', 'event', 'homepageclick', 'productdocumentations-enterprise-support-cn-nav');">文档查找</a></li>
+    <li><a href="http://support.huawei.com/enterprise/newKnowlegdeAction" onclick="ga('send', 'event', 'homepageclick', 'knowledgebase-enterprise-support-cn-nav');">案例库</a></li>
+    <li><a href="http://support.huawei.com/learning/Index!toTrainIndex" onclick="ga('send', 'event', 'homepageclick', 'trainingcertification-support-cn-nav');">华为培训与认证</a></li>
+    <li><a href="http://support.huawei.com/enterprise/?lang=zh" class="hw1_btn">查看更多 ></a></li>
+</ul>
+</div>
+<div class="col-sm-3 hw1_box_wrap">
+<h3>运营商用户</h3>
+<ul>
+    <li><a href="http://support.huawei.com/carrier/?lang=zh#click=main1" onclick="ga('send', 'event', 'homepageclick', 'productsupport-carrier-support-cn-nav');">技术支持</a></li>
+    <li><a href="http://support.huawei.com/carrier/?lang=zh#click=main3" onclick="ga('send', 'event', 'homepageclick', 'softwaredownload-carrier-support-cn-nav');">软件下载</a></li>
+    <li><a href="http://support.huawei.com/carrier/navi?lang=zh#col=tool" onclick="ga('send', 'event', 'homepageclick', 'tools-carrier-support-cn-nav');">工具</a></li>
+    <li><a href="http://support.huawei.com/carrier/?lang=zh#click=main2" onclick="ga('send', 'event', 'homepageclick', 'knowledgebase-carrier-support-cn-nav');">知识库</a></li>
+    <li><a href="http://support.huawei.com/carrier/navi?lang=zh#col=bulletin" onclick="ga('send', 'event', 'homepageclick', 'bulletin-support-cn-nav');">公告</a></li>
+    <li><a href="http://support.huawei.com/groupspace/?lang=zh" onclick="ga('send', 'event', 'homepageclick', 'supportcommunity-support-cn-nav');">互动社区</a></li>
+    <li><a href="http://support.huawei.com/irobot/" onclick="ga('send', 'event', 'homepageclick', 'productanswers-support-cn-nav');">智能问答</a></li>
+    <li><a href="http://support.huawei.com/carrier/" class="hw1_btn">查看更多 ></a></li>
+</ul>
+</div>
+<div class="col-sm-3 hw1_box_wrap">
+<img alt="" class="img-responsive center-block" src="http://www.huawei.com/Assets/CBG/img/group_nav_support.jpg" />
+<p>在线技术支持、软件下载、文档共享，无论您遇到任何问题，我们都将随时为您提供服务。</p>
+</div>
+</div>
+                 </div>
+             
+                 <div class="hw1_menu_section" data-section="hwmm4">
+                     <div class="row">
+<div class="col-sm-2-4 hw1_box_wrap">
+<h3>合作伙伴计划</h3>
+<ul>
+   <li><a href="http://e.huawei.com/cn/partner/cn/chinese-market-management">渠道伙伴政策</a></li>
+    <li><a href="http://support-open.huawei.com/ready/static/mg/HuaweiTechnologyCertification.jsf" onclick="ga('send', 'event', 'homepageclick', 'technologycertification-partner-cn-nav');">华为技术认证</a></li>
+    <li><a href="http://e.huawei.com/cn/partner/solution-zone/policy">企业解决方案伙伴计划</a></li>
+    <li><a href="http://www.huawei.com/cn/partner/solution-partner/ncaas">运营商解决方案伙伴计划</a></li>
+    <li><a href="http://www.huawei.com/cn/partner/solution-partner/service">服务合作伙伴计划</a></li>
+</ul>
+</div>
+<div class="col-sm-2 hw1_box_wrap">
+<h3>合作伙伴展示</h3>
+<ul>
+    <li><a href="http://e.huawei.com/cn/partner/partner-profiles">渠道伙伴</a></li>
+    <li><a href="http://e.huawei.com/cn/partner/alliance/details/strategic-partner">联盟伙伴</a></li>
+    <li><a href="http://marketplace.force.com/" onclick="ga('send', 'event', 'homepageclick', 'marketplace-partner-cn-nav');">Marketplace</a></li>
+	<li><a href="http://support-open.huawei.com/ready/pages/user/compatibility/ready-certificates.jsf" onclick="ga('send', 'event', 'homepageclick', 'readycertificates-partner-cn-nav');">兼容性列表</a></li>
+</ul>
+</div>
+<div class="col-sm-2 hw1_box_wrap">
+<h3>联系合作伙伴</h3>
+<ul>
+    <li><a href="http://e.huawei.com/cn/partner/find-a-partner">查找经销商</a></li>
+    <li><a href="http://e.huawei.com/cn/partner/find-a-partner?&amp;partnertype=sp">查找服务商</a></li>
+    <li><a href="http://enterprise.huawei.com/ilink/cnenterprise/partners/alliance-partner/collaborate-partner/index.htm">查找解决方案伙伴</a></li>   
+</ul>
+</div>
+<div class="col-sm-2 hw1_box_wrap vertical_line">
+<h3>获取资源</h3>
+<ul>
+  <li><a href="http://www.huawei.com/cn/partner/partner-university">合作伙伴大学</a></li>
+</ul>
+</div>
+<div class="col-sm-2-4 hw1_box_wrap">
+<ul>
+    <li><a class="hw1_icon_channel" href="https://uniportal.huawei.com/uniportal/forwardLogin.do?redirect=http%3a%2f%2fe.huawei.com%2fcn%2fpartner%2fpartner-zone" onclick="ga('send', 'event', 'homepageclick', 'channelpartnercentral-partner-cn-nav');">渠道伙伴系统登录</a></li>
+    <li><a class="hw1_icon_solu" href="https://marlite.force.com/" onclick="ga('send', 'event', 'homepageclick', 'solutionpartnercentral-partner-cn-nav');">解决方案伙伴系统登录</a></li>
+    <li><a class="hw1_icon_ebg" href="http://e.huawei.com/cn/partner" onclick="ga('send', 'event', 'homepageclick', 'enterprisepartnerportal-partner-cn-nav');">企业用户合作伙伴门户</a></li>
+</ul>
+</div>
+</div>
+                 </div>
+             
+                 <div class="hw1_menu_section" data-section="hwmm5">
+                     
+                 </div>
+             
+                 <div class="hw1_menu_section" data-section="hwmm6">
+                     
+                 </div>
+             
+     </div>
+    </div>
+</div>
+
+<a id="linkUrl"><span id="forward"></span></a>
+<input id="hfUserstate" type="hidden" value='/cn/user' />
+<input type="hidden" id="currentLanguage" value="zh" />
+<input type="hidden" id="SearchUrl" value="/cn/searchresult" />
+
+  
+
+            
+           
+            <!--HWDocContent-->
+            
+<!--HWDocMeta-->
+<meta name="APP_ID" content="A6503007"/><!--AppID-->
+<meta name="DOC_ID" content="{125F4CCC-4185-41B1-9B12-0B17D70445DC}"/><!--ID-->
+<meta name="RESERVE_FIELD3" content="{125F4CCC-4185-41B1-9B12-0B17D70445DC}"/><!--ID-->
+<meta name="DRETITLE" content="404 Page"/><!--Title-->
+<meta name="DREDATE" content="09/14/2015"/><!--PublishData-->
+<meta name="DOC_LANGUAGE" content="zh"/><!--Language-->
+<meta name="RESERVE_FIELD2" content=""/><!--category-->
+<meta name="DOC_MODIFY_DATE" content="1442188800" />
+
+<meta name="RESERVE_FIELD21" content="sitecore\lWX275965"/><!--作者-->
+<meta name="DOC_AUTHORS" content="sitecore\lWX275965"/><!--作者-->
+<meta name="RESERVE_FIELD20" content=""/><!--安全组-->
+<meta name="DOC_GROUPS" content=""/><!--安全组-->
+<meta name="RESERVE_FIELD11" content="09/14/2015"/><!--PublishData-->
+<meta name="RESERVE_NUM_FIELD2" content="09/14/2015"/><!--PublishData-->
+<meta name="RESERVE_NUM_FIELD1" content="09/14/2015"/><!--PublishData-->
+<meta name="RESERVE_FIELD28" content="09/14/2015"/><!--PublishData-->
+<meta name="DREDATE_YEAR_MONTH" content="2015-09"/><!--PublishDataFormat-->
+<meta name="RESERVE_FIELD12" content=""/><!--过期时间-->
+<meta name="RESERVE_NUM_FIELD3" content=""/><!--过期时间-->
+<meta name="RESERVE_FIELD13" content="CBG"/><!--sitename-->
+<meta name="RESERVE_FIELD19" content=""/><!--keywords-->
+<meta name="DOC_KEYWORDS" content=""/><!--keywords-->
+<meta name="DOC_DESCRIPTION" content=""/><!--description-->
+<meta name="RESERVE_FIELD31" content="/sitecore/content/CORPORATE/Home/404"/><!--栏目节点-->
+
+<meta name="RESERVE_FIELD32" content=""/><!--图片地址-->
+<!--/HWDocMeta-->
+
+<!--分享 add by Gordon 2015.05.04-->
+<meta property="og:title" content="404 Page" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="huawei" />
+<meta property="og:image" content="" />
+<meta property="og:url" content="http://www.huawei.com/404/?item=/cn/my-huawei/undefined&amp;user=extranet\Anonymous&amp;site=CBG1&amp;sc_lang=zh" />
+<meta property="og:site_name" content="huawei" />
+            
+            <div class="container">
+<div class="row info-404" style="padding: 80px 0px 160px; color: #999999;">
+<div class="col-sm-3">
+<img alt="" height="196" width="297" src="http://www-file.huawei.com/~/media/EBG/Images/Uploaded/404.png?la=zh" />
+</div>
+<div class="col-sm-7">
+<h3>抱歉，您查找的页面不存在.</h3>
+<div class="info-link">
+</div>
+</div>
+</div>
+</div>
+            <!--/HWDocContent-->
+        </div>
+        
+        
+<style>
+    .editPageButtom:not(:last-child) > div {
+        float: left;
+    }
+</style>
+<div id="footer" class="winwin-footer">
+    <div class="container">
+        <div class="top">
+            <div class="row">
+                
+                <div class="col-md-8 col-sm-12 hidden-xs">
+                    <div class="left">
+                        
+                            
+                            <div class="left_inner row">
+                                
+                                        <div class='col-sm-3'>
+                                            
+                                                
+                                                    <label>
+                                                        按访问者
+                                                        
+                                                    </label>
+                                                    <ul>
+                                                        
+                                                                <li>
+                                                                    
+                                                                        <a href="http://consumer.huawei.com/cn">
+                                                                            个人用户
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="http://e.huawei.com/cn">
+                                                                            企业用户
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="http://carrier.huawei.com/cn">
+                                                                            运营商用户
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="/cn/partner" target="_parent">
+                                                                            合作伙伴
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="/cn/press-center" target="_parent">
+                                                                            新闻媒体
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="http://developer.huawei.com/cn/" target="_blank">
+                                                                            开发者
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="http://scs.huawei.com/eSupplier/" target="_blank">
+                                                                            供应商
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                    </ul>
+                                                
+                                            
+                                        </div>
+                                    
+                                        <div class='col-sm-3'>
+                                            
+                                                
+                                                    <label>
+                                                        关于华为
+                                                        
+                                                    </label>
+                                                    <ul>
+                                                        
+                                                                <li>
+                                                                    
+                                                                        <a href="/cn/about-huawei" target="_parent">
+                                                                            公司简介
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="/cn/about-huawei/corporate-governance/corporate-governance" target="_parent">
+                                                                            公司治理
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="/cn/executives/board-of-directors" target="_parent">
+                                                                            高管信息
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="/cn/bond-investor-relations" target="_parent">
+                                                                            债券投资者关系
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="/cn/sustainability" target="_parent">
+                                                                            可持续发展
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="/cn/cyber-security" target="_parent">
+                                                                            网络安全
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="/cn/publications" target="_parent">
+                                                                            出版物
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="/cn/about-huawei/annual-report" target="_parent">
+                                                                            公司年报
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                    </ul>
+                                                
+                                            
+                                        </div>
+                                    
+                                        <div class='col-sm-3'>
+                                            
+                                                
+                                                    <label>
+                                                        新闻 &amp; 展会
+                                                        
+                                                    </label>
+                                                    <ul>
+                                                        
+                                                                <li>
+                                                                    
+                                                                        <a href="/cn/news" target="_parent">
+                                                                            新闻
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="/cn/psirt" target="_parent">
+                                                                            安全通告
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="/cn/events" target="_parent">
+                                                                            展会活动
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                    </ul>
+                                                
+                                            
+                                        
+                                    
+                                        
+                                            
+                                                
+                                                    <label>
+                                                        
+                                                        <a target="_blank" href="http://www.huawei.com/cn/industry-insights">
+                                                            行业洞察
+                                                        </a>
+                                                    </label>
+                                                    <ul>
+                                                        
+                                                                <li>
+                                                                    
+                                                                        <a href="http://www.huawei.com/minisite/gci/cn/">
+                                                                            全球联接指数
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="http://www.huawei.com/better-connected-world/cn/">
+                                                                            全联接世界
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                    </ul>
+                                                
+                                            
+                                        </div>
+                                    
+                                        <div class='col-sm-3'>
+                                            
+                                                
+                                                    <label>
+                                                        快速链接
+                                                        
+                                                    </label>
+                                                    <ul>
+                                                        
+                                                                <li>
+                                                                    
+                                                                        <a href="http://www.vmall.com/">
+                                                                            华为商城
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="http://www.honor.cn/">
+                                                                            荣耀官网
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="http://www.huaweimarine.com/marine/">
+                                                                            华为海洋
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="http://forum.huawei.com/portal.php?lang=zh" target="_blank">
+                                                                            产品定义社区
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="http://xinsheng.huawei.com/" target="_blank">
+                                                                            心声社区
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="/cn/Terminations" target="_parent">
+                                                                            除名查询
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="#" onclick="javascript:AlertDialog();return false;">
+                                                                            在线反馈
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                    </ul>
+                                                
+                                            
+                                        </div>
+                                    
+                            </div>
+                        
+                    </div>
+                </div>
+
+                
+                
+                <!-- mobile link bof -->
+                <div class="col-xs-12 visible-xs">
+                    <div class="left">
+                        <div class="left_inner row">
+                            
+                                
+                                        
+                                            <div class="col-sm-3">
+                                                
+                                                    <label class='hasmenu'>
+                                                    按访问者
+                                                    
+                                                    </label>
+                                                    <ul style=>
+                                                        
+                                                                <li>
+                                                                    
+                                                                        <a href="http://consumer.huawei.com/cn">
+                                                                            个人用户
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="http://e.huawei.com/cn">
+                                                                            企业用户
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="http://carrier.huawei.com/cn">
+                                                                            运营商用户
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="/cn/partner" target="_parent">
+                                                                            合作伙伴
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="/cn/press-center" target="_parent">
+                                                                            新闻媒体
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="http://developer.huawei.com/cn/" target="_blank">
+                                                                            开发者
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="http://scs.huawei.com/eSupplier/" target="_blank">
+                                                                            供应商
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                    </ul>
+                                                
+                                            </div>
+                                        
+                                    
+                                        
+                                            <div class="col-sm-3">
+                                                
+                                                    <label class='hasmenu'>
+                                                    关于华为
+                                                    
+                                                    </label>
+                                                    <ul style=>
+                                                        
+                                                                <li>
+                                                                    
+                                                                        <a href="/cn/about-huawei" target="_parent">
+                                                                            公司简介
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="/cn/about-huawei/corporate-governance/corporate-governance" target="_parent">
+                                                                            公司治理
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="/cn/executives/board-of-directors" target="_parent">
+                                                                            高管信息
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="/cn/bond-investor-relations" target="_parent">
+                                                                            债券投资者关系
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="/cn/sustainability" target="_parent">
+                                                                            可持续发展
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="/cn/cyber-security" target="_parent">
+                                                                            网络安全
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="/cn/publications" target="_parent">
+                                                                            出版物
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="/cn/about-huawei/annual-report" target="_parent">
+                                                                            公司年报
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                    </ul>
+                                                
+                                            </div>
+                                        
+                                    
+                                        
+                                            <div class="col-sm-3">
+                                                
+                                                    <label class='hasmenu'>
+                                                    新闻 &amp; 展会
+                                                    
+                                                    </label>
+                                                    <ul style=>
+                                                        
+                                                                <li>
+                                                                    
+                                                                        <a href="/cn/news" target="_parent">
+                                                                            新闻
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="/cn/psirt" target="_parent">
+                                                                            安全通告
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="/cn/events" target="_parent">
+                                                                            展会活动
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                    </ul>
+                                                
+                                            </div>
+                                        
+                                    
+                                        
+                                            <div class="col-sm-3">
+                                                
+                                                    <label class='no-menu'>
+                                                    
+                                                    <a target="_blank" href="http://www.huawei.com/cn/industry-insights">
+                                                        行业洞察
+                                                    </a>
+                                                    </label>
+                                                    <ul style=display:none;>
+                                                        
+                                                                <li>
+                                                                    
+                                                                        <a href="http://www.huawei.com/minisite/gci/cn/">
+                                                                            全球联接指数
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="http://www.huawei.com/better-connected-world/cn/">
+                                                                            全联接世界
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                    </ul>
+                                                
+                                            </div>
+                                        
+                                    
+                                        
+                                            <div class="col-sm-3">
+                                                
+                                                    <label class='hasmenu'>
+                                                    快速链接
+                                                    
+                                                    </label>
+                                                    <ul style=>
+                                                        
+                                                                <li>
+                                                                    
+                                                                        <a href="http://www.vmall.com/">
+                                                                            华为商城
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="http://www.honor.cn/">
+                                                                            荣耀官网
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="http://www.huaweimarine.com/marine/">
+                                                                            华为海洋
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="http://forum.huawei.com/portal.php?lang=zh" target="_blank">
+                                                                            产品定义社区
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="http://xinsheng.huawei.com/" target="_blank">
+                                                                            心声社区
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="/cn/Terminations" target="_parent">
+                                                                            除名查询
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    
+                                                                        <a href="#" onclick="javascript:AlertDialog();return false;">
+                                                                            在线反馈
+                                                                        </a>
+                                                                    
+                                                                </li>
+                                                            
+                                                    </ul>
+                                                
+                                            </div>
+                                        
+                                    
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- mobile link eof -->
+                
+
+                
+                <div class="col-md-4 col-sm-12 col-xs-12 win-foot-border-top">
+                    <div class="footer-icon-top">
+                        <label>
+                            关注我们
+                        </label>
+                        
+                    </div>
+                    <div class="right">
+                        <ul>
+                            
+                                
+                                        <li>
+                                            
+                                                <a href="http://weibo.com/huaweiweibo" target="_blank">
+                                                    <img src="http://www-file.huawei.com/~/media/CORPORATE/Images/footer-head/hw_u_396239.png?h=32&amp;la=zh&amp;w=32" alt="" width="32" height="32" />
+                                                </a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="http://www.linkedin.com/company/huawei" target="_blank">
+                                                    <img src="http://www-file.huawei.com/~/media/CORPORATE/Images/footer-head/logo_linkedin.png?h=28&amp;la=zh&amp;w=32" alt="" width="32" height="28" />
+                                                </a>
+                                            
+                                        </li>
+                                    
+                            
+                        </ul>
+                    </div>
+                    <div class="QR-code clearfix row mt10 hidden-xs hidden-sm">
+<div class="col-xs-4"> <img alt="" src="/Assets/CBG/img/hw_408955.jpg">
+<h4>官方微信</h4>
+</div>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="hw1_hr">
+    <div class="container">
+        <div class="bottom">
+            <div class="row">
+                
+                <div class="col-sm-7 col-md-8 hidden-xs hidden-sm">
+                    <div class="bottom_left">
+                        
+                        <span id="footer_0_tCopyRight">©2016 华为技术有限公司 &nbsp;&nbsp; <a href="http://www.miitbeian.gov.cn/" target="_blank">粤A2-20044005号</a></span>
+                    </div>
+                </div>
+
+                
+                <div class="col-sm-12 col-md-4">
+                    <div class="bottom_right">
+                        <ul>
+                            
+                                
+                                        <li class="editPageButtom">
+                                            
+                                                <a href="/cn/legal" target="_parent">
+                                                    法律声明
+                                                </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="editPageButtom">
+                                            
+                                                <a href="/cn/privacy-policy" target="_parent">
+                                                    隐私保护
+                                                </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="editPageButtom">
+                                            
+                                                <a href="/cn/contact-us" target="_parent">
+                                                    联系我们
+                                                </a>
+                                            
+                                        </li>
+                                    
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--设置个性化脚本-->
+<script type="text/javascript">var digitalData={};</script>
+
+<div id="hw1_mob_nav_container">
+<ul>
+    <li class="search clearfix">
+    <span class="prev"><a href="http://www.huawei.com/cn/">首页</a></span>
+    <div id="hw1_mob_nav_close"> <img class="hover" alt="Menu" src="../Assets/CBG/img/mobile_menu_closes.png" id="need_help_mobile"> </div>
+    </li>
+    <li class="hw1_hasmore" data-index="0"> <a href="#">个人及家用产品<em class="jiantou">&nbsp;</em></a>
+    <ul>
+        <li><a href="http://m.huawei.com/cnmobile/consumer/mobile-phones/index.htm">智能手机</a></li>
+        <li><a href="http://m.huawei.com/cnmobile/consumer/tablets/index.htm">笔记本&平板</a></li>
+        <li><a href="http://m.huawei.com/cnmobile/consumer/wearables/index.htm">智能穿戴</a></li>
+        <li><a href="http://m.huawei.com/cnmobile/consumer/mobile-broadband/mobile-wifi/index.htm">移动宽带</a></li>
+        <li><a href="http://m.huawei.com/cnmobile/consumer/smart-home/wireless-routers/index.htm">智能家居</a></li>
+        <li><a href="http://m.huawei.com/cnmobile/consumer/accessories/index.htm">配件</a></li>
+    </ul>
+    </li>
+    <li class="hw1_hasmore" data-index="1"> <a href="#">商用解决方案<em class="jiantou">&nbsp;</em></a>
+    <ul>
+        <li class="title active">热点话题
+        <ul class="ul-block">
+            <li><a href="http://carrier.huawei.com/cn/spotlight/Big-Video">大视频</a></li> 
+             <li><a href="http://carrier.huawei.com/cn/spotlight/Big-IT">大IT</a></li> 
+             <li><a href="http://carrier.huawei.com/cn/spotlight/Big-Operation">大运营</a></li> 
+             <li><a href="http://carrier.huawei.com/cn/spotlight/Big-Architecture">大架构</a></li> 
+             <li><a href="http://carrier.huawei.com/cn/spotlight/Big-Pipe">大管道</a></li> 
+            <li><a href="http://e.huawei.com/cn/solutions/technical/sdn">软件定义网络（SDN）</a></li>
+            <li><a href="http://e.huawei.com/cn/solutions/technical/cloud-computing">精简IT，敏捷商道</a></li>
+            <li><a href="http://www.huawei.com/minisite/iot/cn/index.html">物联网，驱动行业创新</a></li>
+        </ul>
+        </li>
+        <li class="title active"><a href="http://e.huawei.com/cn/solutions/industries">行业 ></a>
+        <ul class="ul-block">
+            <li><a href="http://e.huawei.com/en/solutions/industries/public-safety">公共安全</a> </li>
+            <li><a href="http://e.huawei.com/en/solutions/industries/government">政务</a></li>
+            <li><a href="http://e.huawei.com/en/solutions/industries/transport">轨道</a> </li>
+            <li><a href="http://e.huawei.com/en/solutions/industries/smart-grid">电力</a></li>
+            <li><a href="http://e.huawei.com/en/solutions/industries/finance">金融</a> </li>
+            <li><a href="http://e.huawei.com/en/solutions/industries/media-entertainment">影视传媒</a></li>
+            <li><a href="http://e.huawei.com/en/solutions/industries/education">教育</a></li>
+            <!--<li><a href="http://e.huawei.com/en/solutions/industries/healthcare">Healthcare</a></li>
+            <li><a href="http://e.huawei.com/en/solutions/industries/oil-gas">Oil &amp; Gas</a> </li>
+            <li><a href="http://e.huawei.com/en/solutions/industries/manufacturing">Manufacturing</a></li>
+            <li><a href="http://e.huawei.com/en/solutions/industries/retail">Smart Retail</a> </li>
+            <li><a href="http://e.huawei.com/en/solutions/industries/hospitality">Hospitality</a> </li>-->
+        </ul>
+        </li>
+		<li class="title active"><a href="http://e.huawei.com/cn/allproduct">企业产品及服务 ></a>
+        <ul class="ul-block">
+		    <li><a href="http://e.huawei.com/cn/products/enterprise-networking/switches">交换机</a></li>
+			<li><a href="http://e.huawei.com/cn/products/enterprise-networking/routers">路由器</a></li>
+			<li><a href="http://e.huawei.com/cn/products/enterprise-networking/wlan">WLAN</a></li>
+			<li><a href="http://e.huawei.com/cn/products/cloud-computing-dc/servers">服务器</a></li>
+            <li><a href="http://e.huawei.com/cn/products/cloud-computing-dc/storage">存储</a></li>		
+            <li><a href="http://e.huawei.com/cn/products/cloud-computing-dc/cloud-computing">云计算</a></li>
+            <li><a href="http://carrier.huawei.com/cn/products/network-energy">网络能源</a></li>
+            <li><a href="http://e.huawei.com/cn/services">服务</a></li>
+        </ul>
+        </li>
+		<li class="title active"><a href="http://carrier.huawei.com/cn/products">运营商产品及服务 ></a>
+        <ul class="ul-block">
+    <li><a href="http://carrier.huawei.com/cn/products/wireless-network">无线网络</a></li>
+    <li><a href="http://carrier.huawei.com/cn/products/fixed-network">固定网络</a></li>
+    <li><a href="http://carrier.huawei.com/cn/products/core-network">云核心网</a></li>
+    <li><a href="http://carrier.huawei.com/cn/products/carrier-software">电信软件</a></li>
+    <li><a href="http://carrier.huawei.com/cn/products/IT">IT基础设施</a></li>
+    <li><a href="http://carrier.huawei.com/cn/products/network-energy">网络能源</a></li>
+    <li><a href="http://carrier.huawei.com/cn/services">全球服务</a></li>
+        </ul>
+        </li>
+		<li class="title active">其它产品
+        <ul class="ul-block">
+   <li><a href="http://www.huawei.com/cn/all-products/solar">智能光伏产品</a></li>
+        </ul>
+        </li>
+    </ul>
+    </li>
+    <li class="hw1_hasmore" data-index="2"> <a href="#">技术支持<em class="jiantou">&nbsp;</em></a>
+    <ul>
+     <li class="title active">消费者
+        <ul class="ul-block">
+    <li><a href="http://consumer.huawei.com/cn/support/express-repair/index.htm">寄修服务</a></li>
+    <li><a href="http://consumer.huawei.com/cn/support/reservation/index.htm">预约服务</a></li>
+    <li><a href="http://consumer.huawei.com/cn/support/warranty-query/index.htm">保修状态查询</a></li>
+	<li><a href="http://consumer.huawei.com/cn/support/warranty-policy/mobile-phone/index.htm">保修政策</a></li>
+    <li><a href="http://club.huawei.com/">花粉俱乐部</a></li>
+    <li><a href="http://consumer.huawei.com/cn/support/service-center/index.htm">服务中心</a></li>
+	<li><a href="http://emui.huawei.com/cn/">升级软件应用</a></li>
+        </ul>
+        </li>
+        <li class="title active">企业用户
+        <ul class="ul-block">
+   <li><a href="http://support.huawei.com/enterprise/?lang=zh">技术支持</a></li>
+    <li><a href="http://support.huawei.com/enterprise/NewSoftwareApplication.action">软件下载</a></li>
+    <li><a href="http://support.huawei.com/ecommunity/?l=zh">互动社区</a></li>
+    <li><a href="http://support.huawei.com/enterprise/toolNewInfoAction?lang=zh">工具</a></li>
+    <li><a href="http://support.huawei.com/enterprise/DocIndexAction!toNewDocIndex">文档查找</a></li>
+    <li><a href="http://support.huawei.com/enterprise/newKnowlegdeAction">案例库</a></li>
+    <li><a href="http://support.huawei.com/learning/Index!toTrainIndex">华为培训与认证</a></li>
+        </ul>
+        </li>
+        <li class="title active">运营商用户
+        <ul class="ul-block">
+    <li><a href="http://support.huawei.com/carrier/?lang=zh#click=main1">技术支持</a></li>
+    <li><a href="http://support.huawei.com/carrier/?lang=zh#click=main3">软件下载</a></li>
+    <li><a href="http://support.huawei.com/carrier/navi?lang=zh#col=tool">工具</a></li>
+    <li><a href="http://support.huawei.com/carrier/?lang=zh#click=main2">知识库</a></li>
+    <li><a href="http://support.huawei.com/carrier/navi?lang=zh#col=bulletin">公告</a></li>
+    <li><a href="http://support.huawei.com/groupspace/?lang=zh">互动社区</a></li>
+    <li><a href="http://support.huawei.com/irobot/">智能问答</a></li>
+        </ul>
+        </li>
+    </ul>
+    </li>
+    <li class="hw1_hasmore" data-index="3"> <a href="#">合作伙伴<em class="jiantou">&nbsp;</em></a>
+    <ul>
+        <li class="title active">合作伙伴计划
+        <ul class="ul-block">
+   <li><a href="http://e.huawei.com/cn/partner/cn/chinese-market-management">渠道伙伴政策</a></li>
+    <li><a href="http://support-open.huawei.com/ready/static/mg/HuaweiTechnologyCertification.jsf">Huawei Ready计划</a></li>
+    <li><a href="http://e.huawei.com/cn/partner/solution-zone/policy">企业解决方案伙伴计划</a></li>
+    <li><a href="http://www.huawei.com/cn/partner/solution-partner/ncaas">运营商解决方案伙伴计划</a></li>
+    <li><a href="http://www.huawei.com/en/partner/solution-partner/service">服务合作伙伴计划</a></li>
+        </ul>
+        </li>
+        <li class="title active">合作伙伴展示
+        <ul class="ul-block">
+    <li><a href="http://e.huawei.com/cn/partner/partner-profiles">渠道伙伴</a></li>
+    <li><a href="http://e.huawei.com/cn/partner/alliance/details/strategic-partner">联盟伙伴</a></li>
+    <li><a href="http://marketplace.force.com/">Marketplace</a></li>
+	<li><a href="http://support-open.huawei.com/ready/pages/user/compatibility/ready-certificates.jsf">兼容性列表</a></li>
+        </ul>
+        </li>
+		<li class="title active">联系合作伙伴
+        <ul class="ul-block">
+    <li><a href="http://e.huawei.com/cn/partner/find-a-partner">查找经销商</a></li>
+    <li><a href="http://e.huawei.com/cn/partner/find-a-partner?&amp;partnertype=sp">查找服务商</a></li>
+    <li><a href="http://enterprise.huawei.com/ilink/cnenterprise/partners/alliance-partner/collaborate-partner/index.htm">查找解决方案伙伴</a></li>        </ul>
+        </li>
+		        <li class="title active">获取资源
+        <ul class="ul-block">
+  <li><a href="http://www.huawei.com/cn/partner/partner-university">合作伙伴大学</a></li>
+        </ul>
+        </li>
+    </ul>
+    </li>
+    <li class="hw1_nomore"><a href="http://developer.huawei.com/cn/">开发者</a></li>
+	<li class="hw1_nomore"><a href="http://m.vmall.com/">华为商城</a></li>
+	<li class="hw1_nomore"><a href="http://www.huawei.com/en/worldwide">[ 选择区域/语言 ]</a></li>
+	<li class="hw1_nomore"><a href="http://www.huawei.com/cn/my-huawei/login?redirect=http%3a%2f%2fwww.huawei.com%2fcn%2f">[ 登录 ]</a></li> 
+</ul>
+</div>
+        
+    </form>
+    <script type="text/javascript" src="/Assets/CBG/js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="/Assets/CBG/js/plugins.js"></script>
+    <script type="text/javascript" src="/Assets/CBG/js/jwplayer.js"></script>
+    <script type="text/javascript" src="/Assets/CBG/js/main.js"></script>
+    <script type="text/javascript" src="/Assets/CBG/js/CBGcommon.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var url = window.location.href;
+
+            if (url.indexOf("/static/") > 0) {
+                window.location.href = window.location.href.replace("www.huawei.com", "www1.huawei.com");
+                return;
+            }
+            if (url.indexOf("hw_445703.htm") > 0) {
+                var url2 = "http://hcc2015.huawei.com/en/"
+                window.location.href = url2;
+                return;
+            }
+            if (url.indexOf("/404/?404") > 0 && url.indexOf(".htm") > 0) {
+                var url2 = url.replace(url, "http://www.huawei.com/404/?404;", "").replace("www.huawei.com", "www1.huawei.com").replace(":80", "");
+                window.location.href = url2;
+                return;
+            }
+            if (url.indexOf(".htm") > 0) {
+                window.location.href = window.location.href.replace("www.huawei.com", "www1.huawei.com");
+                return;
+            }
+        });
+    </script>
+    
+    
+    
+    <!-- 华为的流量统计js，别删我。 start -->
+    
+<script>
+    (function (i, s, o, g, r) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments);
+        }, i[r].l = 1 * new Date();
+        var a = s.createElement(o), m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g;
+        m.parentNode.insertBefore(a, m);
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-7728030-4', 'auto');  // Replace with your property ID.
+    ga('send', 'pageview');
+</script>
+
+<!--GA统计下载量开始 -->
+
+<!--GA统计下载量结束 -->
+
+<!-- begin Adobe 用户行为分析-->
+<script>
+    var page_data = {
+        'sc_job_title': "",
+        'sc_user_type': "",
+        'sc_language': '',
+        'sc_country': ''
+    };
+</script>
+
+<script type="text/javascript"> try { _satellite.pageBottom(); } catch (e) { }</script>
+<!-- end Adobe 用户行为分析-->
+
+<script type="text/javascript" src="/Assets/CBG/js/Huawei.Personalization.js"></script>
+<script type="text/javascript" src="/Assets/CBG/js/Huawei.Personalization.CBG.js"></script>
+<script type="text/javascript" src="/Assets/CBG/js/Huawei.PersonalizationNew.CBG.js"></script>
+
+    <!-- js end -->
+</body>
+</html>

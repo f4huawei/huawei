@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>系统维护页</title>
+<style type="text/css">
+body, html {
+	font-family: "微软雅黑", "Helvetica";
+}
+.system-maintenance {
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin:-100px 0 0 -350px;
+	width:700px;
+	height:200px;
+}
+.system-maintenance-zhEN{
+	margin:-125px 0 0 -425px;
+	width:850px;
+}
+.system-maintenance .img-maintenance {
+	background:url(./exception_icon.png) 0 -3px;
+	width:168px;
+	height:168px;
+	float:left;
+}
+.system-maintenance .error-text {
+	float:right;
+	width: 460px;
+	word-break: break-all;
+}
+.system-maintenance .error-text {
+	width:610px;
+}
+.system-maintenance .title {
+	color:#333;
+	font-size:24px;
+	font-weight:700;
+	margin:0 0 20px 0;
+	display:block;
+}
+.system-maintenance .time {
+	color:#ff8400;
+	font-size:18px;
+	font-weight:700;
+	padding:5px 0 10px 0;
+	display:block;
+}
+.system-maintenance .text-message {
+	color:#999;
+	font-size:16px;
+	font-weight:400;
+	line-height:26px;
+	display:block;
+	padding-bottom: 25px;
+}
+.system-maintenance .caption{
+	color:#999;
+	font-size:16px;
+	font-weight:400;
+	line-height:26px;
+	display:block;
+	padding-bottom:5px;
+}
+
+a {
+	cursor: pointer;
+	color: #336699;
+	font-size:12px;
+	text-decoration:underline;
+}
+a:hover {
+	color: #3399ff;
+}
+
+</style>
+</head>
+<body>
+<div class="system-maintenance system-maintenance-zhEN">
+  <div class="img-maintenance"></div>
+  <div class="error-text">
+    <span class="title">页面不存在或系统处于维护状态</span>
+    <span class="text-message">All management systems and services will resume after the maintenance is complete. We are sorry for any inconvenience this may have caused.</span>
+	<a class="link" onclick="if(navigator.appName==='Netscape'){window.opener=null;window.open('','_self','');window.close();}else{window.opener=null;window.open('','_top');window.close();};">close</a>
+     </div>
+</div>
+
+</body>
+</html>

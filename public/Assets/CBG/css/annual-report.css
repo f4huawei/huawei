@@ -1,0 +1,280 @@
+/* fancybox fixed bof */
+#fancybox-wrap {
+	padding: 0;
+	z-index: 9999;
+}
+.fancybox-bg {
+	display: none;
+}
+#fancybox-outer {
+	background: transparent;
+}
+#fancybox-close {
+	background: url("../img/icon_pupup_close.png"/*tpa=http://www.huawei.com/Assets/CBG/img/icon_pupup_close.png*/) no-repeat center center;
+}
+#fancybox-close {
+    top: 10px;
+    background-position: center center;
+    right: 10px;
+    width: 36px;
+    height: 36px;
+}
+/* fancybox fixed eof */
+
+.row-vertical-align-middle {
+	display: table;
+	width: 102.5%;
+}
+.row-vertical-align-middle > [class*="col-"] {
+display:table-cell;
+vertical-align:middle;
+float:none;
+}
+.pt-10 {
+	padding-top: 10px;
+}
+.pb-10 {
+	padding-bottom: 10px;
+}
+.pl-15 {
+	padding-left: 15px !important;
+}
+.pr-15 {
+	padding-right: 15px !important;
+}
+.pt-25 {
+	padding-top: 25px;
+}
+.ml-10 {
+	margin-left: 10px;
+}
+.mr-10 {
+	margin-right: 10px;
+}
+.mr-20 {
+	margin-right: 20px;
+}
+.ml-20 {
+	margin-left: 20px;
+}
+.mt-0 {
+	margin-top: 0 !important;
+}
+.mb-0 {
+	margin-bottom: 0 !important;
+}
+.mt-10 {
+	margin-top: 10px;
+}
+.mb-10 {
+	margin-bottom: 10px;
+}
+.mt-20 {
+	margin-top: 20px;
+}
+.mb-20 {
+	margin-bottom: 20px;
+}
+.mt-30 {
+	margin-top: 30px;
+}
+.mb-30 {
+	margin-bottom: 30px;
+}
+/* common bof */
+.hide-init{display:none;}
+
+
+.trans {
+	-webkit-transition: all 300ms ease-in;
+	-moz-transition: all 300ms ease-in;
+	-ms-transition: all 300ms ease-in;
+	-o-transition: all 300ms ease-in;
+	transition: all 300ms ease-in;
+}
+.inline-block {
+	display: inline-block;
+}
+
+
+
+/* list item bof */
+.row-list-item {
+	letter-spacing: -0.315em;
+}
+.row-list-item > [class*="col-"] {
+display:inline-block;
+float:none;
+vertical-align:top;
+letter-spacing:normal;
+}
+/* list item eof */
+.row-mt-30 > [class*="col-"]{margin:15px auto;}
+
+
+.section-title{font-size:30px;}
+.font-Huawei_Script_Regular{font-family:Huawei_Script_Regular;}
+.ul-list{list-style:disc; padding-left:15px;}
+.read-more a{color:#0066cc;}
+.img-responsive {
+    width: auto \9;
+}
+
+.row-col-wauto > [class*="col-"]{width:auto; padding:0 5px;}
+/* common eof */
+
+/* header bof */
+
+.language a{padding:12px 0; display:block; color:#fff;}
+.language a:hover{color:#fff;}
+
+.nav-shadow {
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    position: relative;
+    border-bottom: 1px solid #d1d1d1 \9;
+}
+
+div.share_nullbox .share-box-report{margin-bottom:0;}
+.top-bar-1 .top-logo .img-responsive {
+    width: auto;
+}
+/* header eof */
+
+/* banner bof */
+.banner-section{  position:relative; min-height:700px; background: url("../img/banner-bg.jpg"/*tpa=http://www.huawei.com/Assets/CBG/img/banner-bg.jpg*/) no-repeat center top; background-color:#333; }
+.banner-content{display:inline-block; position:relative; top:100px; left:80px;}
+.banner-content-1{margin-left:-30px;}
+.banner-title{font-size:68px; position:relative; line-height:110%; margin-bottom:5px; font-family:frutigernext_medium;}
+.banner-title-1{font-size:24px; position:relative; margin:0 0 0 50px; line-height:120%;}
+.banner-title-2{font-size:36px; position:relative; margin:20px 0 0 50px; line-height:120%; text-align:left;}
+.banner-link{color:#0066cc;}
+.banner-link:hover{color:#333;}
+.banner-player-btn{position:absolute; top:30%; left:68%;}
+.banner-player-btn a{background:url("../img/play-btn_03.png"/*tpa=http://www.huawei.com/Assets/CBG/img/play-btn_03.png*/) no-repeat center center; display:block; width:88px; height:88px; opacity:0.5;}
+.banner-player-btn a:hover{opacity:1;}
+/* banner eof */
+
+/* leader-word bof */
+.bg-1{ background:url("../img/bg-1.jpg"/*tpa=http://www.huawei.com/Assets/CBG/img/bg-1.jpg*/) no-repeat center top; background-size: cover;
+	/*-ms-behavior: url(http://louisremi.github.io/background-size-polyfill/backgroundsize.min.htc);
+	behavior: url(http://louisremi.github.io/background-size-polyfill/backgroundsize.min.htc);*/
+}
+.leader-section{padding:15px 0;}
+.leader-word{padding:10px 50px; color:#fff; background:url("../img/quote_03.png"/*tpa=http://www.huawei.com/Assets/CBG/img/quote_03.png*/) no-repeat left top; }
+.leader-word a{color:#FFF;}
+.leader-name,
+.leader-word h3{font-size:24px; line-height:150%; margin:10px auto;}
+/* leader-word eof */
+
+/* money-section bof */
+.money-section{background:url("../img/bg_02.jpg"/*tpa=http://www.huawei.com/Assets/CBG/img/bg_02.jpg*/) no-repeat center top; background-size:cover;}
+.money-list{font-size:18px;}
+.money-list > li{font-size:18px; padding:5px 0; position:relative;}
+.li-1{left:40%;}
+.li-2{left:50%; margin-top:8%;}
+.li-3{left:60%; margin-top:8%;}
+.li-4{left:40%; margin-top:8%;}
+.li-5{left:50%; margin-top:5%;}
+.li-11{left:55%; margin-top:5%;}
+
+.li-6{left:-10%;}
+.li-7{left:0%; margin-top:10%;}
+.li-8{left:0%; margin-top:10%;}
+.li-9{left:0%; margin-top:10%;}
+.li-10{left:-5%; margin-top:12%;}
+
+.icon-circle{background:url("../img/circle_05.png"/*tpa=http://www.huawei.com/Assets/CBG/img/circle_05.png*/) no-repeat center center; display:inline-block; width:28px; height:28px; vertical-align:middle; position:relative; top:-5px; margin-right:15px}
+.money-amount{font-size:80px; margin:15px auto; line-height:100%;}
+.money-amount-blue{ color:#0066cc;}
+.money-amount-green{ color:#006600;}
+.money-amount-orange{ color:#cc6600;}
+.font-size-24{font-size:24px;}
+
+
+/* money-section eof */
+
+/* future-section bof */
+.future-section{background:url("../img/bg_04.jpg"/*tpa=http://www.huawei.com/Assets/CBG/img/bg_04.jpg*/) no-repeat center top; color:#FFF; padding:30px 0;    background-size: cover;}
+.future-section .read-more a{color:#FFF;}
+/* future-section eof */
+
+/* dev-section bof */
+.dev-section{background:url("../img/bg_05.jpg"/*tpa=http://www.huawei.com/Assets/CBG/img/bg_05.jpg*/) no-repeat center top; padding:30px 0 60px;    background-size: cover;}
+.color-blue{ color:#0066cc;}
+.color-green{ color:#006600;}
+.color-orange{ color:#cc6600;}
+.font-size-24{font-size:24px;}
+.dev-section h3{font-size:20px;}
+/* dev-section eof */
+
+/* bcw-section bof */
+.bcw-section h3{font-size:20px;}
+/* bcw-section eof */
+
+/* report-download-section bof */
+.report-download-section{background:#f6f6f6; padding:30px 0;}
+/* report-download-section eof */
+
+
+/* mobile style */
+
+@media (min-width:768px){
+
+/* list item bof */
+.row-list-item-sm{letter-spacing:-0.315em;}
+.row-list-item-sm > [class*="col-"]{ float:none; vertical-align:top; letter-spacing:normal; display:inline-block;}
+/* list item eof */
+
+}
+
+@media (max-width:767px){
+.img-responsive{width:auto;}	
+.div-table-xs{display:table; width:100%;}
+.div-table-xs > *{display:table-cell; vertical-align:middle; float:none;}
+.img-responsive-100-xs .img-responsive{width:100%;}
+.section-title{font-size:24px; line-height:120%;}
+
+
+/* banner bof */
+.banner-section{  min-height:0; padding:15px 0; background-size:cover;}
+.banner-content{ top:0; left:0;}
+.banner-content-1{margin-left:0;}
+.banner-title{font-size:38px; position:relative; line-height:110%; margin-bottom:5px; font-family:frutigernext_medium;}
+.banner-title-1{font-size:20px; position:relative; margin:0 0 0 30px; line-height:120%;}
+.banner-title-2{font-size:24px; position:relative; margin:20px 0 0 ; line-height:120%; text-align:center;}
+.banner-link, .banner-link:hover{color:#0066cc;}
+.banner-player-btn{position:absolute; top:30%; left:50%; margin-left:-44px;}
+/* banner eof */
+
+
+/* leader-word bof */
+.bg-1{ min-height:582px;   background-size: cover;}
+.leader-word{padding:10px 0; color:#fff; background:none; }
+.leader-word a{color:#FFF;}
+.leader-name,
+.leader-word h3{font-size:20px; line-height:150%; margin:10px auto;}
+/* leader-word eof */
+
+
+/* money-section bof */
+.money-section{background-size:cover;}
+.money-section h4, .money-section h3{margin:5px auto;}
+.money-section .row > [class*=col-] {
+    padding-top: 15px;
+}
+.money-list > li{font-size:18px; padding:5px 0; position:static; margin-top:0 !important;}
+.money-amount{font-size:50px; margin:15px auto; line-height:100%;}
+/* money-section eof */
+
+
+}
+
+/* gte pc style */
+@media (min-width:992px){
+#wrapper{left:0 !important;}
+.row-middle-md{display:table; width:100%\9;}
+.row-middle-md > [class*="col-"]{display:table-cell; vertical-align:middle; float:none;}
+.row-list-sm{letter-spacing:-0.31em;}
+.row-list-sm > [class*="col-"]{display:inline-block; letter-spacing:normal;float:none; vertical-align:top;}
+
+}
