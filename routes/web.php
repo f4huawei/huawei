@@ -33,9 +33,6 @@ Route::get("/enroll","EnrollController@enroll");
 Route::resource("/doenroll","EnrollController");
 
 
-Route::get('/', function () {
-	return view('index');
-});
 //页面(查询友情链接)
 Route::get("/","LinkController@index");
 
@@ -64,12 +61,6 @@ Route::get('/admin',function(){
 });
 //页面(开发者链接)
 Route::get("/Kai","KaiController@Kai");
-
-
-
-
-
-
 
 //查看验证码
 // Route::get("code/{tttttmp}","DemoController@captcha");

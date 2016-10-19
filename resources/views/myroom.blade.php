@@ -62,8 +62,7 @@
 						<li class="active"><a class="scroll" href="#home">我的主页<span class="sr-only">(current)</span></a></li>
 						<li><a class="scroll" href="#about">个人简介</a></li>
 						<li><a class="scroll" href="#contact">我的信息</a></li>
-						<li><a class="scroll" href="#portfolio">备用</a></li>
-						
+						<li><a  href="/Theorder/{{ session('user')->id }}">我的订单</a></li>
 					  </ul>
 					  </nav>
 			  <div class="clearfix"> </div>
@@ -112,7 +111,7 @@
 			<div class="clearfix"> </div>
 		</div>
 	
-			<!----//fea-video---->
+			<!--//fea-video-->
 <!--/about-->
 
 <!--contact-->

@@ -233,7 +233,7 @@ $("body").addClass("cbg insert-cbg-header sc detail");
 				<br/><br/><br/><br/><br/><br/>
 				<!-- 获取详情id -->
 				<div id="gid" style="display:none"></div>
-				<a disable width="300px;" class="btn btn-warning btn-lg " id='gwc' href="{{  }}" >加入购物车</a>
+				<a disable width="300px;" class="btn btn-warning btn-lg " id='gwc' href="/" >加入购物车</a>
 				&nbsp;
 				<a style="display:none" disable width="300px;" class="btn btn-warning btn-lg" id='dxid' href="/" >下单</a>
                 <!-- dbank温馨提示 -->
@@ -731,6 +731,8 @@ ec.ready(function(){
             		//把商品详情表的id带到下个页面
            			$("#gwc").attr("href","{{ URL('/lo/') }}/"+data.id);
            			$("#dxid").attr("href","{{ URL('/lo/') }}/"+data.id);
+           			$("#gwc").attr("href","{{ URL('/admin/') }}/"+data.id);
+           			$("#dxid").attr("href","{{ URL('/admin/') }}/"+data.id);
             		
             },
             error:function(data)

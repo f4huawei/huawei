@@ -293,19 +293,14 @@ var LAG_HOME_Fos_banner5 = "Home-follow us-huafans weibo";
           <li><a href="http://consumer.huawei.com/cn/support/index.htm"><span>服务与支持</span></a></li>
           <li><a href="http://club.huawei.com/"><span>花粉俱乐部</span></a></li>
           <!--<li><a href="http://www.vmall.com/huawei" target="_blank"><span>华为商城</span></a></li>-->
-           @if(session('user'))
-      
-          
-          
-        
- 
-        <!-- search -->
-        <div id="cbg-main-nav-search">
-           尊敬的： {{ session('user')->userName }}
-                  <a href="/myroom/{{ session('user')->id }}" style="color:blue;" >个人中心</a>　　
-                  <a href="/logout" style="color:red;" >退出登录</a>
-        </div>
-        @else
+          @if(session('user'))
+          <!-- search -->
+          <div id="cbg-main-nav-search">
+            尊敬的： {{ session('user')->userName }}
+            <a href="/myroom/{{ session('user')->id }}" style="color:blue;" >个人中心</a>　　
+            <a href="/logout" style="color:red;" >退出登录</a>
+          </div>
+          @else
           <li class="login-not" id="logina"><a class="log-link fl" href="/login"><span>登录</span></a> <span class="s-line">|</span> <a class="reg-link fl" href="/enroll"><span>注册</span></a></li>
       </ul>
       @endif

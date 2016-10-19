@@ -706,38 +706,10 @@ Huawei P9</a></h3>
                 </div>
             </div>
             @endforeach
-            <!-- <div class="col-sm-6">
-                <div class="hw1_multi_img animate-item animate-start" style="display:block;">
-                    <div class="hw1_img" style="display:block;">
-                        <a href="http://e.huawei.com/cn/solutions/technical/sdn">
-                            <img src="./huawei_files/02_smart_city.jpg" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                    <div class="hw1_img_subinfo" style="display:block;">
-                        <a href="http://e.huawei.com/cn/solutions/technical/sdn">
-                            <div class="hw1_img_wrap">
-                                <h3>
-                                    SDN重构企业网络架构：开放、简单、安全 
-                                </h3>
-                                <p>这是真正变革的SDN，在实现网络架构灵活搭建的同时，更可以应需而变，加速业务创新。</p>
-                            </div>
-                        </a>
-                    </div>
-                    <section class="">
-                        <div class=""></div>
-                    </section>
-                    <input id="hideDataSourceID" type="hidden" value="{1CE64B46-BE6C-4801-B660-C02AD4281822}">
-                    <input id="hideTargetUrl" type="hidden" value="">
-                    <input id="hideViewModel" type="hidden" value="True">
-                    <input id="hideHuaweiName" type="hidden" value="">
-                    <input id="hideHuaweiValue" type="hidden" value="">
-                    <input id="hideTargetId" type="hidden" value="">
-                </div>
-            </div> -->
+        
         </div>
         <!-- 第二行结束 -->
 </div>
-<!-- 图片结束 -->
 <!-- CARD_END -->
 
 
