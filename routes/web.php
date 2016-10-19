@@ -41,25 +41,36 @@ Route::get("/","LinkController@index");
 
 //前台订单表单
 Route::get("/ding","DingController@ding");
-
+//前台支付表单
+Route::get("/Zhifu","ZhifuController@Zhifu");
 // 前台手机遍历
 Route::resource("/phone","PhoneController");
 //前台电脑遍历
 Route::resource("/computer","ComputerController");
 //前台个人中心
 Route::resource("/myroom","RoomController");
+//前台取消订单
+Route::get("/Theorder/{id?}","TheorderController@onend");
 //前台商品购买页面
 Route::get('/shopping/{id?}',"ShopController@show");
-//ajax
+//颜色ajax
 Route::get('/color',"AjaxController@color");
+//内存ajax
+Route::get('/massage',"AjaxController@massage");
 
-//ajax订单生成
-Route::get('/order','AjaxController@order');
 
+//订单页
+Route::get('/shopcar','ShopcarController@index');
 
 Route::get('/admin',function(){
 	return view('admin.login');
 });
+//页面(开发者链接)
+Route::get("/Kai","KaiController@Kai");
+
+
+
+
 
 
 

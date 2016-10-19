@@ -7,6 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Language" content="zh-cn" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge; charset=utf-8"/>
+<meta name="csrf-token" content="{{ csrf_token() }}">
 <script>
 var domainMain = 'http://shopcn.huawei.com';
 var domainWap = 'http://m.vmall.com';
@@ -18,6 +19,7 @@ var domainAccount = 'http://shopcn.huawei.com';
 var isUseAccount = 'false';
 var upBindPhoneAddr = 'http://hwid1.vmall.com:8080/oauth2/userCenter/bindAccount/bindMobileAccount_1.jsp?lang=zh-cn&amp;themeName=cloudTheme&amp;reqClientType=26';
 </script>
+
 <!-- 
 <script>
 (function(){
@@ -64,6 +66,7 @@ var upBindPhoneAddr = 'http://hwid1.vmall.com:8080/oauth2/userCenter/bindAccount
 <!--[if lt IE 9]><script src="{{ asset('shop/Scripts/html5shiv.js') }}"></script> <![endif]-->
 <script src="{{ asset('shop/Scripts/script_con_cn_ht_share.js') }}"></script>
 <script src="{{ asset('shop/Scripts/pc-g-analytics.js') }}"></script>
+<script src="{{ asset('shop/Scripts/jquery-1.8.3.min.js') }}"></script>
 
 <script>
 function titleSearch() {
@@ -119,9 +122,11 @@ $(function(){
 <!-- 导航 -->
 <div class="g-main">
 	<div class="g">
-		<div id="bread-pro-name" class="breadcrumb-area fcn">@foreach($name as $Name){{$Name->goodsName}}@endforeach</div>
-    	</div>
+		<div id="bread-pro-name" class="breadcrumb-area fcn">
+			@foreach($na as $aaa) {{ $aaa }} @endforeach
+		</div>
 	</div>
+</div>
 </div>
 
 <script>
@@ -137,42 +142,32 @@ $("body").addClass("cbg insert-cbg-header sc detail");
         	<!--商品简介-属性 -->
         	<div class="pro-property-area clearfix">
                 <div class="pro-meta-area">
-
                 	<!-- 自己写html写在这里 -->
-					
 					<br/><br/><br/><br/><br/>
-                	<h1>@foreach($name as $Name){{$Name->goodsName}}@endforeach</h1>
+					<!-- 获取商品ID -->
+					@foreach($shos as $shosid)
+					<input type="hidden" value="{{ $shosid }}" id="hidden">
+					@endforeach
+                	<h1>@foreach($na as $aaa) {{ $aaa }} @endforeach</h1>
                 	选择颜色：<br/>
-
-                	
-                	@foreach($list as $goods)
-                		<button class='bbtn'  style="width:130px; background-color:white; height:30px; border:1px solid black;">{{ $goods->goodsColor }}</button>
+                	@foreach($attr as $good)
+                		<input type="hidden" value="{{ $good }}" id="colorui"/>
+                		<button class="CheckColor btn btn-info btn-lg"  >{{ $good }}</button>
                 	@endforeach
-                	
                 	<br/>
-                	选择制式：<br/>
-                	<li id='zs'>
-                	<div style="border:1px solid #ccc; width:292px; height:58px; font-size:25px;" class="shang" id='a1'><center>全网通版</center>
-                	</div><br/>
-                	<div style="border:1px solid #ccc; width:292px; height:58px; font-size:25px;"class="shang" id='a2'><center>移动定制版</center>
-                	</li>
-                	</div>
-                	<br/><br/>
                 	选择容量：<br/>
-                	<li id='rl'>
-                	<div style="border:1px solid #ccc; width:292px; height:58px; font-size:25px;" id="a3"><center>4GB+64GB</center>
-                	</div><br/>
-                	<div style="border:1px solid #ccc; width:292px; height:58px; font-size:25px;" id='a4'><center>3GB+32GB</center>
+                	<div id='zs' class="Checksize2"></div><br/><br/>
+                	选择版本:<br/>
+                	<div id='bb'>
+                		全网通
                 	</div>
-                </li>
-                	
-		    <div class="hr-10"></div>
-		    <div class="line"></div>
-		    <div class="hr-10"></div>
-					
-                    <!--商品简介-SKU -->
-                    <div id="pro-skus" class="pro-sku-area">加载中...</div>
-		    <div id="pro-gift-list" class="hide"></div>
+	            </div>
+			    <div class="hr-10"></div>
+			    <div class="line"></div>
+			    <div class="hr-10"></div>
+	            <!--商品简介-SKU -->
+	            <div id="pro-skus" class="pro-sku-area">加载中...</div>
+			    <div id="pro-gift-list" class="hide"></div>
 					<div class="pro-sku-area hide" id="contractLst">
 						<!-- 联通合约机套餐 -->	
 						<dl class="pro-sku-text clearfix " >
@@ -182,7 +177,6 @@ $("body").addClass("cbg insert-cbg-header sc detail");
 						</dl>
 						<form action="/contract/choose-{id}" id="contractForm" class="hide"></form>
 					</div>
-					 
 					<!-- 20140710-商品简介-延保-start -->
 					<div class="pro-ew-area hide">
 						<dl class="pro-sku-text clearfix">
@@ -217,8 +211,6 @@ $("body").addClass("cbg insert-cbg-header sc detail");
 							</dd>
 						</dl>
 					</div><!-- 20140710-商品简介-延保-end -->
-					
-                    
 					<input id="pro-quantity" type="text" class="vam text" style="display: none;" value="1" autocomplete="off" />                    
                     <!--  商品简介-购买数量
 					<div id="pro-quantity-area" class="pro-stock-area" style="display: none;">购买数量：
@@ -227,39 +219,31 @@ $("body").addClass("cbg insert-cbg-header sc detail");
    						</span>
 					</div>
                       -->
-		      <!-- 搭配推荐 新-->
-		      <div class="pro-suit-parts-list" id="tab-comb">
-				    <dt>您选择了以下产品：<span id='span1'>@foreach($name as $Name){{$Name->goodsName}}@endforeach</span><span id='span2'></span><span id="span3"></span><span id='span4'></span></dt>
+		        <!-- 搭配推荐 新-->
+		        <div class="pro-suit-parts-list" id="tab-comb">
+				    <dt>您选择了以下产品：<span id='span1'><!-- @foreach($list as $Name){{$Name->goodsName}}@endforeach --></span><span id='span2'></span><span id="span3"></span><span id='span4'></span></dt>
                     <div class="pro-suit-parts-area" id="comb-pro-area">
                     	<h1>
-				<em id="pro-name">@foreach($name as $Name){{$Name->goodsName}}@endforeach</em>
-				<span id="pro-price"><sup>￥</sup><em>@foreach($name as $Name){{$Name->shopPrice}}@endforeach元</em></span>
-			</h1>
+                    		<b>全网通</b>&nbsp;&nbsp;<b id="cl"></b>&nbsp;&nbsp;<b id="sz"></b>
+							<em id="pro-name"><!-- @foreach($list as $Name){{$Name->goodsName}}@endforeach --></em>
+							<span id="pro-price"><div id="llalal"></div><sup >￥</sup><em>元</em></span>
+						</h1>
 				    </div>
 				</div>
 				<br/><br/><br/><br/><br/><br/>
-
-				@if(session('user'))
-				
-				<button class="btn btn-block btn-warning btn-lg" id='gwc'>加入购物车</button>
-			
-				<br/><br/>
-				
-				<button id='order' class="btn btn-block btn-danger btn-lg">立即下单</button>
-			
-				@else
-				<h1>请登录后购买</h1>
-				@endif
-
-                    <!-- dbank温馨提示 -->
-                    <div class="pro-tips-area"  id="pro-msg" style="display: none;" >
-                    	<div class="tips-style-2 tips-area">
-                    		<i></i>
-                    		 <div class="tips-text"><p><span>温馨提示：</span><span id="pro-msg-title">本套餐只适用于华为网盘标准和VIP用户购买，至尊VIP用户请勿购买。</span></p></div>
-						</div>
-					</div><!-- 20131218-商品简介-tips-end -->
-					
-                </div><!--end pro-meta-area-->
+				<!-- 获取详情id -->
+				<div id="gid" style="display:none"></div>
+				<a disable width="300px;" class="btn btn-warning btn-lg " id='gwc' href="/" >加入购物车</a>
+				&nbsp;
+				<a style="display:none" disable width="300px;" class="btn btn-warning btn-lg" id='dxid' href="/" >下单</a>
+                <!-- dbank温馨提示 -->
+                <div class="pro-tips-area"  id="pro-msg" style="display: none;" >
+                	<div class="tips-style-2 tips-area">
+                		<i></i>
+                		 <div class="tips-text"><p><span>温馨提示：</span><span id="pro-msg-title">本套餐只适用于华为网盘标准和VIP用户购买，至尊VIP用户请勿购买。</span></p></div>
+					</div>
+				</div><!-- 20131218-商品简介-tips-end -->
+            </div><!--end pro-meta-area-->
                 
 		<!--商品简介-提交操作 -->
 		<form id="order-confirm-form" method="post" class="hide" action="/order/nowConfirmcart"></form>
@@ -270,9 +254,9 @@ $("body").addClass("cbg insert-cbg-header sc detail");
 		<form id="order-confirm-deposit-form" method="post" class="hide" action="/order/confirmDeposit"></form>
 		<input id="isPriority" name="isPriority" type="hidden" value="0"/>
 		<script src="{{ asset('shop/Scripts/detail.min.js') }}"></script>
-                
- 
-
+        <script type="text/javascript">
+        	function addCar()
+        </script>        
 <!--商品简介-提交操作 -->
 <div class="pro-fixed-action">
     <div id="pro-select-sku" class="pro-selected clearfix"></div>
@@ -282,12 +266,10 @@ $("body").addClass("cbg insert-cbg-header sc detail");
 		<input class="vam" checked type="checkbox" id="pro-agreement-area-check"><label for="" class="vam">同意</label>&nbsp;<a href="javascript:;" class="vam" onclick="ec.product.showDepositAgreement()">订金支付协议</a>
 	</div>
 </div>
-
- 
 <!--弹出层-成功添加到购物车 -->
 <div id="cart-tips" class="pro-popup-area hide">
-     <div class="h">
-	<a href="javascript:;" onclick="$('#cart-tips').hide()" class="pro-popup-close" title="关闭"><span>关闭</span></a>
+    <div class="h">
+		</span></a>
     </div>
     <div class="b">
 		<div class="pro-add-success">
@@ -303,7 +285,6 @@ $("body").addClass("cbg insert-cbg-header sc detail");
 		</div>
     </div>
 </div>
-
 <!--弹出层-提示信息 -->
 <div id="popup-tips" class="pro-popup-area hide">
     <div class="h">
@@ -317,7 +298,6 @@ $("body").addClass("cbg insert-cbg-header sc detail");
 		</div>
     </div>
 </div>
-    
 <!-- 20130913-弹出层-购买延保-start -->
 <div id="popup-extend" class="pro-popup-area hide">
 	<div class="h">
@@ -347,9 +327,7 @@ $("body").addClass("cbg insert-cbg-header sc detail");
 				</div>
 		</div>
 	</div>
-
 </div><!-- 20130913-弹出层-购买延保-end -->
-
 <!-- Baidu Button BEGIN -->
 <div class="pro-bdShare-area">
 	<div id="bdshare" class="bdShare bdshare_t bds_tools get-codes-bdshare" data="{'url':'http://shopcn.huawei.com/item/154411301.html'}">
@@ -373,7 +351,8 @@ $("body").addClass("cbg insert-cbg-header sc detail");
 		}, 500);
 	};
 </script>
-<!-- Baidu Button END -->            </div>
+<!-- Baidu Button END -->           
+	</div>
         </div>
         
         <div class="left-area">
@@ -383,21 +362,17 @@ $("body").addClass("cbg insert-cbg-header sc detail");
             	<div class="pro-gallery-img" id="pro-gallery-img">
             			<br/><br/><br/><br/>
 					<p id="product-img" >
-						@foreach($name as $Name)
-						<img id="img" src="{{ asset('phoneImg') }}/{{$Name->Img}}" alt="HUAWEI P9"/>
+						@foreach($pic as $pc)
+						<img id="img" src="{{ asset('phoneImg') }}/{{ $pc }}" alt="HUAWEI P9"/>
 						@endforeach
 					</p>
 				</div>
 				<!-- 左边大照片结束 -->
             </div>
         </div>
-        
     </div>
 </div>
-
-
 <div class="hr-85"></div>
-
 <!--到货通知弹出框-->
 <textarea id="product-arrival-html" class="hide">
 	<div class="arrival-remind-area">
@@ -419,8 +394,6 @@ $("body").addClass("cbg insert-cbg-header sc detail");
 		<span class="icon-error">输入有误</span>
 	</div>
 </textarea>
-
-
 <!-- 20150331-咨询提交成功提示-start -->
 <textarea id="product-counsel-html" class="hide">
     <div class="box-prompt-success-area">
@@ -436,7 +409,6 @@ $("body").addClass("cbg insert-cbg-header sc detail");
 	    <a href="javascript:;" class="box-change box-button-style-2" target="_blank" onclick="ec.product.secEmailOper()"><span>去绑定</span></a>
 	</div>
 </textarea>  	
-
 <textarea id="product-attention-html" class="hide">
 <!-- 20130423-表单-关注-start -->
 <div class="form-interest-area">
@@ -457,33 +429,36 @@ $("body").addClass("cbg insert-cbg-header sc detail");
 	<div class="form-edit-action"><input class="button-action-submit-2 box-ok" value="" type="submit"></div>
 </div><!-- 20130423-表单-关注-end -->
 </textarea>                    
-
+<script type="text/javascript">
+	function addCart(goodsId){
+		alert('lll');
+	}
+</script>
 <script src="{{ asset('shop/Scripts/07cc059a7ed741a3a8805405e7cfc979.js') }}"></script>
 <script>
-(function(){
-var hash = location.hash, skuId = 0, virId = 0,
-	cateList = [];
+	(function(){
+	var hash = location.hash, skuId = 0, virId = 0,
+		cateList = [];
 
 
-if(hash.length > 1) {
-	var skuInfo = hash.split('#', 2)[1];
-	skuId = (skuInfo.length > 1) ? (parseInt(skuInfo.split(',', 2)[0], 10) || 0) : 0;
-	virId = (skuInfo.length > 1) ? (parseInt(skuInfo.split(',', 2)[1], 10) || 0) : 0;
-} 
+	if(hash.length > 1) {
+		var skuInfo = hash.split('#', 2)[1];
+		skuId = (skuInfo.length > 1) ? (parseInt(skuInfo.split(',', 2)[0], 10) || 0) : 0;
+		virId = (skuInfo.length > 1) ? (parseInt(skuInfo.split(',', 2)[1], 10) || 0) : 0;
+	} 
 
-if(virId > 0) {
-	$.get('/category.json', {}, function (json) {
-		if(!json.success) return;
-		var lst = [];
-		for (var i = 0; i < json.virtualList.length; i += 1) {
-			lst = json.virtualList[i];
-			cateList[lst.id] = lst.text;
-		}
-		$('#bread-pro-name').before(cateList[virId]);
-	}, 'json');
-	
-}
-
+	if(virId > 0) {
+		$.get('/category.json', {}, function (json) {
+			if(!json.success) return;
+			var lst = [];
+			for (var i = 0; i < json.virtualList.length; i += 1) {
+				lst = json.virtualList[i];
+				cateList[lst.id] = lst.text;
+			}
+			$('#bread-pro-name').before(cateList[virId]);
+		}, 'json');
+		
+	}
 </script>
 <script>
 //��֤�Ƿ��п�棨ʵ����Ʒ��
@@ -546,7 +521,6 @@ ec.ready(function(){
 		$("#pro-gallery-img").css("position","absolute").css("top",27)
 		}
 	};
-	
 </script>
 
 <div class="g-foot-able cbg-centered">
@@ -567,7 +541,7 @@ ec.ready(function(){
                 <li class="able-item able-item-retail"><a class="tit" href="http://consumer.huawei.com/cn/support/where-to-buy/index.htm" target="_blank">查找零售店<i></i></span></a></li>
             </ul>
         </div>
-    </div>
+</div>
 
     <div id="cbg-footer-nav" class="cbg-centered cbg-dark" data-auto-tracking="true" data-t-act="footer">
         <div class="cbg-overlay"></div>
@@ -702,93 +676,70 @@ ec.ready(function(){
 </body>
 <!-- 自己写的jq -->
 <script type="text/javascript">
-	$('.sku-select a').click(function(){
-
-		$(this).css('background','#ccc');
-		// $.ajax({
-		// 	url:'/color',
-		// 	type:'get',
-		// 	async:true,
-		// 	data:{id:1},
-		// 	dataType:'html',
-		// 	success:function(data){
-		// 		alert(col);
-		// 	},
-		// 	error:function(){
-		// 		alert('失败');
-		// 	}
-		// alert('aas');
-
-	// })
+	$.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+    });
+    //点击颜色
+	$(".CheckColor").click(function(){
+		var colors = $(this).html();
+		//获取节点写入购买商品处的颜色
+		var col = document.getElementById("cl");
+		//赋值
+		col.innerHTML = colors;
+		var pid = $("#hidden").val();
+		$.ajax({
+			type:"get",
+			data:{goodsColor:colors,goodsId:pid},
+			url:"{{ url('/color') }}",
+			dataType:'json',
+			success:function(data)
+            {
+            	$("#zs>button").remove();
+            	for (var i = 0; i < data.length; i++) {
+            		$("#zs").append('<button class="btn  btn-success btn-lg" onclick="clickFunc(this);">'+data[i].goodsMassage+"</button>&nbsp;");
+            	};
+            	
+            },
+            error:function()
+            {
+                alert('异常1');
+            },     
+		});		
 	});
-	$('#a1').click(function(){
-		$('#a2').css('background','white');
-		$('#a1').css('background','#ddd');
-		shang = '全网通版';
-		$('#span3').html(shang);
-	});
-	$('#a2').click(function(){
-		$('#a1').css('background','white');
-		$('#a2').css('background','#ddd');
-		shang = '移动定制版';
-		$('#span3').html(shang);
-	});
-	$('#a3').click(function(){
-		$('#a4').css('background','white');
-		$('#a3').css('background','#ddd');
-		xia = '4GB+64GB';
-		$('#span4').html(xia);
-	});
-	$('#a4').click(function(){
-		$('#a3').css('background','white');
-		$('#a4').css('background','#ddd');
-		xia = '3GB+32GB';
-		$('#span4').html(xia);
-	});
-	$('.bbtn').click(function(){
-		// $(this).css('background','#ddd');
-		$('#span2').html($(this).html());
-		//调用Ajax查询图片名
-		// $.ajax({
-		// 	url:'/color',
-		// 	type:'get',
-		// 	async:true,
-		// 	data:{id:1},
-		// 	dataType:'json',
-		// 	success:function(data){
-		// 		alert(data);
-		// 	},
-		// 	error:function(){
-		// 		alert('2');
-		// 	},
-		// });
-	});
-
-	//订单生成
-	$('#order').click(function(){
-
-	var name = $('#span1').html();
-	var color = $('#span2').html();
-	var zs = $('#span3').html();
-	var rl = $('#span4').html();
-	$.ajax({
-		url:'order',
-		type:'get',
-		async:'true',
-		data:{name:name,color:color,zs:zs,rl:rl},
-		dataType:'html',
-		success:function(data){
-			alert(data);
-		},
-		error:function(){
-			alert(2);
-		}
-	});
-	// alert(name+color+zs+rl);  成功了
-
-	});
-
-
+	function clickFunc(_this)
+	{
+        var size = $(_this).html();
+        var color = $("#colorui").val();
+        var pid = $("#hidden").val();
+        $.ajax({
+            type:"get",
+            data:{goodsColor:color,goodsId:pid,goodsMassage:size},
+            url:"{{ url('/massage') }}",
+            dataType:'json',
+			success:function(data)
+            {
+            	// alert(data.id);	//商品id
+            	$("#llalal>p").remove();
+            	$("#sz>b").remove();
+            	$("#llalal").append('<p >'+data.goodsPrice+"</p>");
+            	$("#sz").append('<b>'+size+"</b>");
+            	$("#gid").append('<p>'+data.id+"</p>");
+            		// 显示"加入购物车"和"下单"
+            		$("#dxid").attr("style","display:brack");
+            		//把商品详情表的id带到下个页面
+           			$("#gwc").attr("href","{{ URL('/admin/') }}/"+data.id);
+           			$("#dxid").attr("href","{{ URL('/admin/') }}/"+data.id);
+            		
+            },
+            error:function(data)
+            {
+                alert('异常2');
+            },     
+        });     
+    }
 </script>
+
 </html>
 @endsection

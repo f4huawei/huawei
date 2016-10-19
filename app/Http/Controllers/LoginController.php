@@ -21,6 +21,7 @@ class LoginController extends Controller
     	$passWord = $request->input('passWord');
     	$ob = \DB::table('user')->where("userName",$userName)->first();
     	// dd($ob);
+        
     	if($ob){
     		if($ob->userPass == $passWord){
     			//用户存在并且密码正确，存入session，名为user;
@@ -35,6 +36,6 @@ class LoginController extends Controller
 			//用户不存在
     		return back()->with('msg','用户名不存在');
     	}
-    	
+        
     }
 }

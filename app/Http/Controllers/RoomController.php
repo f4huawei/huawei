@@ -55,4 +55,5 @@ class RoomController extends Controller
          // dd($id);
         return redirect('/logout');
 	}
+
 }
